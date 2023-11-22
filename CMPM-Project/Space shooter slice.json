@@ -1,0 +1,138 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "353baa66-f2f5-4830-b74e-52996487d61b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Grotesque Pet",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 3_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/c7595c84feaf69b48397003357cc08356faa26a7bcd13a52dba7334a287aa686_Blue spaceship 3_1.png",
+          "name": "Blue spaceship 3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/9bca92da2d3a7e7c50e16c4a59f794907d14514d5a109febdeb101e82888979c_tiled_purple space.png",
+          "name": "tiled_purple space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_blue space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_blue space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/2948b735772413c7f19d8ffbbca435a38bd99f044a71d23542f4e73d91cbba47_tiled_blue space.png",
+          "name": "tiled_blue space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 01.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/31316b472837b9506e86c805ea8ae1c7f955b8d0c12cf1f89727502337456777_Blue laser 01.png",
+          "name": "Blue laser 01.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
