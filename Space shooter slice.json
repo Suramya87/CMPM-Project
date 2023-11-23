@@ -1,0 +1,348 @@
+{
+  "firstLayout": "Title Screen",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "353baa66-f2f5-4830-b74e-52996487d61b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Grotesque Pet",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 3_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Blue spaceship 3_1.png\",\"extension\":\".png\"}",
+        "name": "Blue spaceship 3_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/c7595c84feaf69b48397003357cc08356faa26a7bcd13a52dba7334a287aa686_Blue spaceship 3_1.png",
+          "name": "Blue spaceship 3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/9bca92da2d3a7e7c50e16c4a59f794907d14514d5a109febdeb101e82888979c_tiled_purple space.png",
+          "name": "tiled_purple space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_blue space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_blue space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/2948b735772413c7f19d8ffbbca435a38bd99f044a71d23542f4e73d91cbba47_tiled_blue space.png",
+          "name": "tiled_blue space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 01.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/31316b472837b9506e86c805ea8ae1c7f955b8d0c12cf1f89727502337456777_Blue laser 01.png",
+          "name": "Blue laser 01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_dark purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_dark purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/59a7d361a270a586a7079a0b2b074758f56d5a1d9f9b83811686cfe95fdfce9a_tiled_dark purple space.png",
+          "name": "tiled_dark purple space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Starry Background Big Star 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Starry Background Big Star 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/7b80587e51dc7941acbde3a9e7cec4dce4e8f8b972c78b645ad2efcb8cfa1f63_Starry Background Big Star 1.png",
+          "name": "Starry Background Big Star 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Stars 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Stars 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/1dd0ee3b6ee4b0545ef9b3723a60ee4a10bb29bfd0fdd4845c460ba69bec4ce0_tiled_Starry Background Stars 2.png",
+          "name": "tiled_Starry Background Stars 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Title (PH).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Title (PH).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "Yellow Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "Yellow Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "Yellow Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/1983e43269e3bc0f6066cdaeadc48bcf323019a5bb81e11f6c19d76c3b014ad3_explosion_1.png",
+          "name": "explosion_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/ea41ef1dfd0fb7ada13251ef6793bbb3a12d268121ec9f62957f46c77e643587_explosion_2.png",
+          "name": "explosion_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/22f5bf86ed7f21b255b8a6207a104afaba5db0c4177e29f686cddb25e344f254_explosion_3.png",
+          "name": "explosion_3.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/frontliner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title-screen"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/faceforward"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/turret"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/topdownmovementanimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boidsmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
