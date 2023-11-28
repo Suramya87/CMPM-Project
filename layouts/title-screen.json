@@ -853,6 +853,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\mixkit-fast-game-explosion-1688.wav",
+            "",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [

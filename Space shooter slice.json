@@ -280,6 +280,94 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/22f5bf86ed7f21b255b8a6207a104afaba5db0c4177e29f686cddb25e344f254_explosion_3.png",
           "name": "explosion_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Brown Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Brown Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/ae6802c87f6e3e4739b6260b23e4546582daad3fb803446401fbec2bc057f297_Big Brown Meteor 1.png",
+          "name": "Big Brown Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Brown Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Brown Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/c783dd20d2d204c471063d95b954fabeea67e09ffb4673678e0821627ce7b596_Big Brown Meteor 2.png",
+          "name": "Big Brown Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Grey Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Grey Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/821659c429013730ce54bc7259612b06fcaf5563cbed3ce63d0ee73e4de202cd_Big Grey Meteor 1.png",
+          "name": "Big Grey Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Grey Meteor 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Grey Meteor 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/899702bd99d00e0c99369c9fd5422bd688abc4ccfc0761d944d660b5eb6c6f2d_Big Grey Meteor 4.png",
+          "name": "Big Grey Meteor 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ammo crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ammo crate.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/PNG/Retina/1d29813184effeab778a68b427fca89396004687c68e9cb35063d013b433e756_Ammo crate.png",
+          "name": "Ammo crate.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange barrel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange barrel.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/7821f539062202ef4613e249a23f1d7ac000b9c33a98b5e9a834c3e85864ac02_Orange barrel.png",
+          "name": "Orange barrel.png"
+        }
+      },
+      {
+        "file": "assets/mixkit-fast-game-explosion-1688.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\mixkit-fast-game-explosion-1688.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
