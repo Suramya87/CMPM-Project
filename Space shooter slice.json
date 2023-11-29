@@ -368,6 +368,79 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+<<<<<<< Updated upstream
+=======
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/d115ac3e69e3bb5258b905d775e2b91ca5d698bd8047a10eaae518540ca3954c_Black spaceship 1.png",
+          "name": "Black spaceship 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/fc3c913c3aa29fe34fb45b5405d16948f45d424e3f29b0ba099a82565a2a757d_Black spaceship 5.png",
+          "name": "Black spaceship 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/b331b3700315a046506f289a74e04b71f3decdd90eaddc6fefdb4af856a05d83_Red spaceship 1_1.png",
+          "name": "Red spaceship 1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 01.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/ce93e902fd396d92508643234ee1457f00ba9673365c7e881cc659a02f53a645_Red laser 01.png",
+          "name": "Red laser 01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spawn tiles.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "spawn tiles",
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -390,6 +463,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/faceforward"
