@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6649664695851633,
+    "zoomFactor": 0.6432750234616629,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -121,21 +121,6 @@
       "x": 607,
       "y": 588,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "BlueLaser01",
-      "persistentUuid": "fd8d596a-6753-4aca-aed1-e9cb52937f68",
-      "width": 0,
-      "x": 770,
-      "y": 165,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -930,7 +915,7 @@
             "",
             "\"Generator\"",
             "<",
-            "5"
+            "2"
           ]
         }
       ],
@@ -1121,7 +1106,7 @@
             "",
             "\"Generator\"",
             ">=",
-            "5"
+            "2"
           ]
         }
       ],
