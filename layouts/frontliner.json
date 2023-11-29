@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6432750234616629,
+    "zoomFactor": 0.601991798001653,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,6 +28,30 @@
       "name": "Seed",
       "type": "number",
       "value": 100
+    },
+    {
+      "folded": true,
+      "name": "x",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "y",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "rocks",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "barrels",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -51,13 +75,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 58679,
+      "height": 28727,
       "layer": "",
       "name": "PurpleSpace",
       "persistentUuid": "772f70a8-6bae-4bd2-9469-b5410d827bc9",
-      "width": 80264,
-      "x": -36530,
-      "y": -26863,
+      "width": 34056,
+      "x": -17074,
+      "y": -13807,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,13 +106,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80099,
+      "height": 52963,
       "layer": "",
       "name": "StarryBackgroundStars2",
       "persistentUuid": "4b925f00-3a8d-4fc4-b43c-22235d67e2dd",
-      "width": 125750,
-      "x": -47698,
-      "y": -34156,
+      "width": 65718,
+      "x": -34002,
+      "y": -27500,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,14 +121,14 @@
     {
       "angle": 274,
       "customSize": true,
-      "depth": 17,
-      "height": 116781,
+      "depth": 7,
+      "height": 49585,
       "layer": "",
       "name": "StarryBackgroundStars3",
       "persistentUuid": "700918f4-956b-4546-875d-a60ceb8bc435",
-      "width": 179363,
-      "x": -73877,
-      "y": -70077,
+      "width": 76156,
+      "x": -40662,
+      "y": -28226,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -121,6 +145,52 @@
       "x": 607,
       "y": 588,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1327,
+      "layer": "",
+      "name": "Spawn_protection",
+      "persistentUuid": "81a72db5-f855-4416-8197-c4609028f6f2",
+      "width": 1647,
+      "x": -108,
+      "y": -33,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "spawn_tiles",
+      "persistentUuid": "bd2c1d64-ecea-4411-8e71-b4688c8508c9",
+      "width": 0,
+      "x": 1839,
+      "y": 953,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Ammo",
+      "persistentUuid": "7e03e6fd-4a91-4cf1-9cbf-16743ca70e1d",
+      "width": 0,
+      "x": 46,
+      "y": 622,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -187,6 +257,10 @@
           "BulletLayer": "",
           "RandomizedAngle": 0,
           "BulletSpeedVariance": 0
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
         }
       ],
       "animations": [
@@ -818,6 +892,181 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Spawn_protection",
+      "texture": "New image",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "spawn_tiles",
+      "texture": "New image2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a39858c45723f7ad4fa827a5c0f2d03107372ef63946233066dc1daf62c5b79e",
+      "name": "Explosion",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "explosion_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 75
+                      },
+                      {
+                        "x": 0,
+                        "y": 75
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "explosion_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 75
+                      },
+                      {
+                        "x": 0,
+                        "y": 75
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "explosion_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 75
+                      },
+                      {
+                        "x": 0,
+                        "y": 75
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Ammo",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -858,6 +1107,18 @@
       },
       {
         "objectName": "OrangeBarrel"
+      },
+      {
+        "objectName": "Spawn_protection"
+      },
+      {
+        "objectName": "spawn_tiles"
+      },
+      {
+        "objectName": "Explosion"
+      },
+      {
+        "objectName": "Ammo"
       }
     ]
   },
@@ -901,6 +1162,26 @@
             "",
             "\"Generator\""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "=",
+            "10000"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "barrels",
+            "=",
+            "10"
+          ]
         }
       ]
     },
@@ -909,13 +1190,13 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
+            "inverted": true,
+            "value": "VarScene"
           },
           "parameters": [
-            "",
-            "\"Generator\"",
-            "<",
-            "2"
+            "rocks",
+            "=",
+            "0"
           ]
         }
       ],
@@ -927,7 +1208,27 @@
           "parameters": [
             "Seed",
             "=",
-            "RandomInRange(0,10)"
+            "RandomInRange(1,4)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "x",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "y",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
           ]
         }
       ],
@@ -941,8 +1242,8 @@
               },
               "parameters": [
                 "Seed",
-                ">=",
-                "4"
+                "=",
+                "1"
               ]
             }
           ],
@@ -954,8 +1255,8 @@
               "parameters": [
                 "",
                 "BigBrownMeteor1",
-                "RandomInRange(-3000,3000)",
-                "RandomInRange(-3000,3000)",
+                "x",
+                "y",
                 ""
               ]
             },
@@ -971,85 +1272,12 @@
             },
             {
               "type": {
-                "value": "Create"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "",
-                "BigBrownMeteor2",
-                "RandomInRange(-3000,3000)",
-                "RandomInRange(-3000,3000)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "BigBrownMeteor2",
-                "40",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Seed",
-                "<=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "BigGreyMeteor1",
-                "RandomInRange(-3000,3000)",
-                "RandomInRange(-3000,3000)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "BigGreyMeteor1",
-                "40",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "BigGreyMeteor4",
-                "RandomInRange(-3000,3000)",
-                "RandomInRange(-3000,3000)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "BigGreyMeteor4",
-                "40",
-                ""
+                "rocks",
+                "-",
+                "1"
               ]
             }
           ]
@@ -1064,7 +1292,56 @@
               "parameters": [
                 "Seed",
                 "=",
-                "5"
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Seed",
+                "=",
+                "3"
               ]
             }
           ],
@@ -1074,7 +1351,7 @@
                 "value": "Rotate"
               },
               "parameters": [
-                "OrangeBarrel",
+                "BigBrownMeteor2",
                 "40",
                 ""
               ]
@@ -1085,39 +1362,71 @@
               },
               "parameters": [
                 "",
-                "OrangeBarrel",
-                "RandomInRange(-3000,3000)",
-                "RandomInRange(-3000,3000)",
+                "BigBrownMeteor2",
+                "x",
+                "y",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "-",
+                "1"
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"Generator\"",
-            ">=",
-            "2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "RemoveTimer"
-          },
-          "parameters": [
-            "",
-            "\"Generator\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Seed",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "-",
+                "1"
+              ]
+            }
           ]
         }
       ]
@@ -1168,6 +1477,70 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Ammo",
+            "Text",
+            "=",
+            "ToString(BlueSpaceship3.FireBullet::ShotsBeforeNextReload())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Ammo",
+            "\"255;0;0\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Ammo",
+            "\"255;255;255\""
           ]
         }
       ]
@@ -1275,7 +1648,7 @@
             "",
             "assets\\mixkit-fast-game-explosion-1688.wav",
             "",
-            "10",
+            "3",
             ""
           ]
         }
@@ -1324,7 +1697,7 @@
             "",
             "assets\\mixkit-fast-game-explosion-1688.wav",
             "",
-            "10",
+            "3",
             ""
           ]
         }
@@ -1373,7 +1746,7 @@
             "",
             "assets\\mixkit-fast-game-explosion-1688.wav",
             "",
-            "10",
+            "3",
             ""
           ]
         }
@@ -1422,7 +1795,7 @@
             "",
             "assets\\mixkit-fast-game-explosion-1688.wav",
             "",
-            "10",
+            "3",
             ""
           ]
         }
@@ -1442,6 +1815,19 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1466,6 +1852,19 @@
           "parameters": [
             "BigBrownMeteor2",
             "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
             "",
             "",
             ""
@@ -1498,6 +1897,19 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1526,6 +1938,19 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1535,6 +1960,322 @@
           },
           "parameters": [
             "BlueSpaceship3",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "barrels",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "spawn_tiles"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "OrangeBarrel",
+            "spawn_tiles.X()",
+            "spawn_tiles.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "barrels",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "spawn_tiles",
+            "OrangeBarrel",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "spawn_tiles",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            "BlueLaser01",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "OrangeBarrel.CenterX()",
+            "OrangeBarrel.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\mixkit-fast-game-explosion-1688.wav",
+            "",
+            "7",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Explosion",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "BlueLaser01",
+            "InOnScreen",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
             ""
           ]
         }
@@ -1568,6 +2309,38 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -1588,6 +2361,10 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "InOnScreen",
+      "type": "IsOnScreen::InOnScreen"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
@@ -1602,6 +2379,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
