@@ -18,7 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
+<<<<<<< Updated upstream
     "zoomFactor": 0.43207585526462833,
+=======
+    "zoomFactor": 0.4933694211950654,
+>>>>>>> Stashed changes
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2667,7 +2671,7 @@
             "BlueSpaceship3",
             "CursorX()",
             "CursorY()",
-            "100",
+            "200",
             ""
           ]
         },
@@ -3080,13 +3084,38 @@
         },
         {
           "type": {
+<<<<<<< Updated upstream
+=======
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "BlueLaser01.CenterX()",
+            "=",
+            "BlueLaser01.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+>>>>>>> Stashed changes
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
             "Explosion",
             "Scale",
             "=",
-            "2"
+            "3"
           ]
         },
         {
