@@ -368,8 +368,6 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
-<<<<<<< Updated upstream
-=======
       },
       {
         "alwaysLoaded": false,
@@ -434,13 +432,97 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/spawn tiles.png",
+        "file": "assets/New image2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "spawn tiles",
+        "name": "New image2",
         "smoothed": true,
         "userAdded": false
->>>>>>> Stashed changes
+      },
+      {
+        "file": "Kenney Mini.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Double-Chevron-Arrow-Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Double-Chevron-Arrow-Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c0ec0f84d4e5ffbb904544e45d9bcd424f7c9ba1c3866014f3548a8c99b8772f_Double-Chevron-Arrow-Right.png",
+          "name": "Double-Chevron-Arrow-Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "file": "assets/Barrel explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Barrel explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Meteor explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Meteor explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Lazers.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Lazers.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -459,10 +541,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/title-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/assassin"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/isonscreen"
