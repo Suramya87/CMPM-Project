@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2378509890767717,
+    "zoomFactor": 0.46170663264054923,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -200,7 +200,7 @@
       "width": 2774,
       "x": -831,
       "y": -677,
-      "zOrder": 3,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -213,9 +213,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "bd2c1d64-ecea-4411-8e71-b4688c8508c9",
       "width": 0,
-      "x": 1839,
-      "y": 953,
-      "zOrder": 9,
+      "x": 1891,
+      "y": 1040,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -243,9 +243,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "58733e7f-624e-4f29-9b83-e2a4cbed6e21",
       "width": 0,
-      "x": 9923,
-      "y": 6031,
-      "zOrder": 11,
+      "x": 9975,
+      "y": 6118,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -258,9 +258,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "52fdc2b1-4f50-491b-88de-813a5031cb69",
       "width": 0,
-      "x": 3237,
-      "y": 6270,
-      "zOrder": 12,
+      "x": 3289,
+      "y": 6357,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -273,9 +273,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "fd0a2f7a-c61b-4b2a-8f0e-d1bca5d4a88d",
       "width": 0,
-      "x": 11415,
-      "y": -1848,
-      "zOrder": 13,
+      "x": 11467,
+      "y": -1761,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -288,9 +288,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "607244e4-85a3-47a0-92b1-d09755f8eb56",
       "width": 0,
-      "x": -6434,
-      "y": 7643,
-      "zOrder": 14,
+      "x": -6382,
+      "y": 7730,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -303,9 +303,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "00718a44-36d3-41b2-b7c3-3576d53f983b",
       "width": 0,
-      "x": -8224,
-      "y": 778,
-      "zOrder": 15,
+      "x": -8172,
+      "y": 865,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -318,9 +318,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "be6bbe1a-83a0-427a-adc0-bb5edd890867",
       "width": 0,
-      "x": -13955,
-      "y": 8897,
-      "zOrder": 16,
+      "x": -13903,
+      "y": 8984,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -333,9 +333,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "b1c90e91-07a0-4f48-ab76-876c9dcf6590",
       "width": 0,
-      "x": -11269,
-      "y": 3882,
-      "zOrder": 17,
+      "x": -11217,
+      "y": 3969,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,9 +348,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "0a33c8da-1153-4723-aae5-c165bac12546",
       "width": 0,
-      "x": -7329,
-      "y": -9191,
-      "zOrder": 18,
+      "x": -7277,
+      "y": -9104,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -363,9 +363,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "aa7cded8-d858-42ce-8b5a-3999f8b8af6b",
       "width": 0,
-      "x": 10520,
-      "y": -12952,
-      "zOrder": 19,
+      "x": 10572,
+      "y": -12865,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -378,9 +378,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "6bb889ab-321b-4072-a5fc-6f693fe4fe46",
       "width": 0,
-      "x": 11117,
-      "y": 1853,
-      "zOrder": 20,
+      "x": 11169,
+      "y": 1940,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -393,9 +393,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "248e2a96-dc3c-4a8f-a440-13535046ab8e",
       "width": 0,
-      "x": 13385,
-      "y": -3401,
-      "zOrder": 21,
+      "x": 13437,
+      "y": -3314,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -408,9 +408,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "7796ad9f-e3a9-4f15-bba9-eddb9d658b71",
       "width": 0,
-      "x": 6281,
-      "y": -4356,
-      "zOrder": 22,
+      "x": 6333,
+      "y": -4269,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -423,9 +423,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "6513270a-1c7f-47a9-bce5-9c7ca9ae63d2",
       "width": 0,
-      "x": 1506,
-      "y": -5490,
-      "zOrder": 23,
+      "x": 1558,
+      "y": -5403,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -438,9 +438,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "f34ec990-917b-4e49-bf88-d1f375f56b02",
       "width": 0,
-      "x": -583,
-      "y": -8534,
-      "zOrder": 24,
+      "x": -531,
+      "y": -8447,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -453,9 +453,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "c0a50c7a-17c7-4932-a9eb-731f7e3257b2",
       "width": 0,
-      "x": -6075,
-      "y": -4594,
-      "zOrder": 25,
+      "x": -6023,
+      "y": -4507,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -468,9 +468,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "8e44da14-9d75-4240-92ad-06caef53a677",
       "width": 0,
-      "x": -8344,
-      "y": -12176,
-      "zOrder": 26,
+      "x": -8292,
+      "y": -12089,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -483,9 +483,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "bcb89895-3b6c-4825-ab90-acd6236f0cf4",
       "width": 0,
-      "x": 2103,
-      "y": 10747,
-      "zOrder": 27,
+      "x": 2155,
+      "y": 10834,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -498,9 +498,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "1daf2e86-bffa-4a32-9b98-2a2fbcab71e5",
       "width": 0,
-      "x": 13624,
-      "y": 12538,
-      "zOrder": 28,
+      "x": 13676,
+      "y": 12625,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -513,9 +513,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "396dfa0c-a948-49e2-8f0c-9f962ebdfca4",
       "width": 0,
-      "x": 14400,
-      "y": 7643,
-      "zOrder": 29,
+      "x": 14452,
+      "y": 7730,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -528,9 +528,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "b33d9795-dbbd-4190-9bdc-f73c9edabb0d",
       "width": 0,
-      "x": -5359,
-      "y": 11225,
-      "zOrder": 30,
+      "x": -5307,
+      "y": 11312,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -543,9 +543,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "a40b629a-161f-4f4f-97eb-6a840bf0d4b0",
       "width": 0,
-      "x": 1864,
-      "y": 5196,
-      "zOrder": 31,
+      "x": 1916,
+      "y": 5283,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -558,9 +558,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2273ed4c-da80-47e7-b06e-1050e0f3361a",
       "width": 0,
-      "x": -4225,
-      "y": 3405,
-      "zOrder": 32,
+      "x": -4173,
+      "y": 3492,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -573,9 +573,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2c7921f4-5a08-495b-abcc-4999d2fd37c6",
       "width": 0,
-      "x": -2255,
-      "y": 12359,
-      "zOrder": 33,
+      "x": -2203,
+      "y": 12446,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -588,9 +588,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "e117d3c0-05dc-40dd-a669-fbf596d2f335",
       "width": 0,
-      "x": 10520,
-      "y": 1136,
-      "zOrder": 34,
+      "x": 10572,
+      "y": 1223,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -603,9 +603,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "09656817-2e1e-4d83-83b8-6cf4aac722e1",
       "width": 0,
-      "x": 6162,
-      "y": -9251,
-      "zOrder": 35,
+      "x": 6214,
+      "y": -9164,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -618,9 +618,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "b6a3de19-79aa-4260-b6e2-ef3af7ac23f1",
       "width": 0,
-      "x": 1864,
-      "y": -6982,
-      "zOrder": 36,
+      "x": 1916,
+      "y": -6895,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -633,9 +633,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "d019b71c-fd45-4296-a7f1-3c3a1d4ab57d",
       "width": 0,
-      "x": -4643,
-      "y": -8116,
-      "zOrder": 37,
+      "x": -4591,
+      "y": -8029,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -648,9 +648,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "0128a29a-cb26-40e7-9403-ab5d4a09430c",
       "width": 0,
-      "x": -12343,
-      "y": -9131,
-      "zOrder": 38,
+      "x": -12291,
+      "y": -9044,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -663,9 +663,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "6741b8e1-d734-4ed6-b8d8-4f9a65d7f244",
       "width": 0,
-      "x": -9657,
-      "y": 241,
-      "zOrder": 39,
+      "x": -9605,
+      "y": 328,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -678,9 +678,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "0819888a-59c8-497f-9496-69342c9b6771",
       "width": 0,
-      "x": -11150,
-      "y": 9732,
-      "zOrder": 40,
+      "x": -11098,
+      "y": 9819,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -693,9 +693,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "f77d4489-1489-4417-9a03-002d7585b3e3",
       "width": 0,
-      "x": -10194,
-      "y": 2211,
-      "zOrder": 41,
+      "x": -10142,
+      "y": 2298,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -708,9 +708,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2ed9c5d7-1444-4b46-b267-12dd1b567dda",
       "width": 0,
-      "x": -7687,
-      "y": -7102,
-      "zOrder": 42,
+      "x": -7635,
+      "y": -7015,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -723,9 +723,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "65fdcbeb-9522-4b5d-be28-908eac9552aa",
       "width": 0,
-      "x": 9983,
-      "y": -7997,
-      "zOrder": 43,
+      "x": 10035,
+      "y": -7910,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -738,9 +738,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "d4f6e6f7-af05-4d30-bc3a-55ca6833148a",
       "width": 0,
-      "x": 11117,
-      "y": -12056,
-      "zOrder": 44,
+      "x": 11169,
+      "y": -11969,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -753,9 +753,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "0ecefe6c-b0ad-423c-9912-fd80a94cae73",
       "width": 0,
-      "x": 11415,
-      "y": 11284,
-      "zOrder": 45,
+      "x": 11467,
+      "y": 11371,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -768,9 +768,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "029e7e4d-171a-4cfb-b974-eda383fa89b7",
       "width": 0,
-      "x": -8105,
-      "y": 11523,
-      "zOrder": 46,
+      "x": -8053,
+      "y": 11610,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -783,9 +783,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "e0ef2fde-e1ee-41c3-97a0-8f543adf0892",
       "width": 0,
-      "x": -13896,
-      "y": 1853,
-      "zOrder": 47,
+      "x": -13844,
+      "y": 1940,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -798,9 +798,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "bd2aa293-5938-4018-ad18-ec2c05890246",
       "width": 0,
-      "x": -12881,
-      "y": -5012,
-      "zOrder": 48,
+      "x": -12829,
+      "y": -4925,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -813,9 +813,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "53a215c4-4f36-40d0-9805-2febb156a1c1",
       "width": 0,
-      "x": -8045,
-      "y": -8594,
-      "zOrder": 49,
+      "x": -7993,
+      "y": -8507,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -828,9 +828,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2ab67100-2de6-444f-adba-20dc275c5875",
       "width": 0,
-      "x": -13776,
-      "y": -11400,
-      "zOrder": 50,
+      "x": -13724,
+      "y": -11313,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -843,9 +843,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "56defda6-a3e0-49f2-881f-350ead0afab2",
       "width": 0,
-      "x": -7269,
-      "y": -13608,
-      "zOrder": 51,
+      "x": -7217,
+      "y": -13521,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -858,9 +858,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "63cf7ec7-b22c-429d-9168-1ad844407a78",
       "width": 0,
-      "x": -11388,
-      "y": -11042,
-      "zOrder": 52,
+      "x": -11336,
+      "y": -10955,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -873,9 +873,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "0dc7e56b-2584-4213-b9ed-31d8dad341dd",
       "width": 0,
-      "x": -5896,
-      "y": -8236,
-      "zOrder": 53,
+      "x": -5844,
+      "y": -8149,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -888,9 +888,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "ebc49312-869f-460f-854f-28e490d05a6d",
       "width": 0,
-      "x": -3747,
-      "y": -5251,
-      "zOrder": 54,
+      "x": -3695,
+      "y": -5164,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -903,9 +903,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "ed0d5ac7-a919-44f8-9909-c21b4a54d628",
       "width": 0,
-      "x": -1479,
-      "y": -8594,
-      "zOrder": 55,
+      "x": -1427,
+      "y": -8507,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -918,9 +918,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "e538fb06-1253-40a3-bfa0-20469a841ba7",
       "width": 0,
-      "x": -2733,
-      "y": -5609,
-      "zOrder": 56,
+      "x": -2681,
+      "y": -5522,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -933,9 +933,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "20790c7a-7c89-426e-bf8f-f1f33e895a2b",
       "width": 0,
-      "x": -4404,
-      "y": -14265,
-      "zOrder": 57,
+      "x": -4352,
+      "y": -14178,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -948,9 +948,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "fe26e0c9-4b35-4785-9cc0-4bfeec2ac681",
       "width": 0,
-      "x": -5837,
-      "y": -9549,
-      "zOrder": 58,
+      "x": -5785,
+      "y": -9462,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -963,9 +963,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "479832b2-ebb3-46dd-aabc-9d5b84c5e1b8",
       "width": 0,
-      "x": 1864,
-      "y": -5251,
-      "zOrder": 59,
+      "x": 1916,
+      "y": -5164,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -978,9 +978,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "ca0b2c84-3632-41b8-afd9-6d039092d1b3",
       "width": 0,
-      "x": 1804,
-      "y": -1371,
-      "zOrder": 60,
+      "x": 1856,
+      "y": -1284,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -993,9 +993,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2aad3c90-182e-4dbb-94d5-81aa1d39595a",
       "width": 0,
-      "x": 2103,
-      "y": 5912,
-      "zOrder": 61,
+      "x": 2155,
+      "y": 5999,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1008,9 +1008,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "72565178-9a13-4af5-86bb-f2372dcaf60b",
       "width": 0,
-      "x": 5207,
-      "y": 1494,
-      "zOrder": 62,
+      "x": 5259,
+      "y": 1581,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1023,9 +1023,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "e6971f52-cbdb-45e6-b079-ac31195479af",
       "width": 0,
-      "x": 2103,
-      "y": 2927,
-      "zOrder": 63,
+      "x": 2155,
+      "y": 3014,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1038,9 +1038,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "cac7da21-e599-49c4-b12f-e3e426a21ccd",
       "width": 0,
-      "x": 193,
-      "y": 2450,
-      "zOrder": 64,
+      "x": 245,
+      "y": 2537,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1053,9 +1053,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "47e66a28-01ae-42ff-ac30-2ea5b72d115c",
       "width": 0,
-      "x": 2580,
-      "y": 480,
-      "zOrder": 65,
+      "x": 2632,
+      "y": 567,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1068,9 +1068,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2c6afa4a-436a-460c-aaec-29c51136cdad",
       "width": 0,
-      "x": 73,
-      "y": 12717,
-      "zOrder": 66,
+      "x": 125,
+      "y": 12804,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1083,9 +1083,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "f35fc25e-4ce4-4092-a4cd-b12a42cc1583",
       "width": 0,
-      "x": 1386,
-      "y": 12956,
-      "zOrder": 67,
+      "x": 1438,
+      "y": 13043,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1098,9 +1098,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "cf053fa0-f909-4433-bb98-f2f7d562b5bd",
       "width": 0,
-      "x": 6938,
-      "y": 10389,
-      "zOrder": 68,
+      "x": 6990,
+      "y": 10476,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1113,9 +1113,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "f57d5505-0b2d-4ffc-9904-968738265eeb",
       "width": 0,
-      "x": 2939,
-      "y": 7882,
-      "zOrder": 69,
+      "x": 2991,
+      "y": 7969,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1128,9 +1128,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "74ebae64-eeca-4423-9ab9-56fcd772fff2",
       "width": 0,
-      "x": 8908,
-      "y": -6027,
-      "zOrder": 70,
+      "x": 8960,
+      "y": -5940,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1143,9 +1143,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "c62bc2e5-14cc-4fde-b0a4-edb867452c29",
       "width": 0,
-      "x": 8908,
-      "y": -3162,
-      "zOrder": 71,
+      "x": 8960,
+      "y": -3075,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1158,9 +1158,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "2b49e8e9-7a7a-427f-98f4-28026665ac55",
       "width": 0,
-      "x": 7296,
-      "y": -2445,
-      "zOrder": 72,
+      "x": 7348,
+      "y": -2358,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1173,9 +1173,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "bc419000-c4c1-4934-9b9a-154990afb218",
       "width": 0,
-      "x": 9147,
-      "y": -356,
-      "zOrder": 73,
+      "x": 9199,
+      "y": -269,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1188,9 +1188,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "fda987a5-db19-44fd-9ea9-89c3ef07a91f",
       "width": 0,
-      "x": 3535,
-      "y": -3221,
-      "zOrder": 74,
+      "x": 3587,
+      "y": -3134,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1203,9 +1203,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "71182882-e272-43c0-b61b-23bc0bb4553d",
       "width": 0,
-      "x": 1327,
-      "y": -3281,
-      "zOrder": 75,
+      "x": 1379,
+      "y": -3194,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1218,9 +1218,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "4acff48e-c50a-4908-93ef-99df2a94c4ea",
       "width": 0,
-      "x": 1028,
-      "y": -2207,
-      "zOrder": 76,
+      "x": 1080,
+      "y": -2120,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1233,9 +1233,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "91a4c95a-b39d-4201-9c91-97f632322207",
       "width": 0,
-      "x": -1479,
-      "y": -3699,
-      "zOrder": 77,
+      "x": -1427,
+      "y": -3612,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1248,9 +1248,9 @@
       "name": "spawn_tiles",
       "persistentUuid": "23e12e2b-f2f7-4c04-bf6c-31a686c7691c",
       "width": 0,
-      "x": -703,
-      "y": -6326,
-      "zOrder": 78,
+      "x": -651,
+      "y": -6239,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1327,6 +1327,38 @@
       "x": 35,
       "y": 13,
       "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 106,
+      "layer": "UI",
+      "name": "GreenButton",
+      "persistentUuid": "6a5e9758-f27c-42e5-bce1-66c4b18b6485",
+      "width": 360,
+      "x": 260,
+      "y": 504,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 106,
+      "layer": "UI",
+      "name": "YellowButton",
+      "persistentUuid": "26a32a9d-6878-4664-ad78-86ff1f2f1171",
+      "width": 351,
+      "x": 667,
+      "y": 504,
+      "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2486,6 +2518,132 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "GreenButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Play Again",
+          "font": "Kenney Mini.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 29,
+            "g": 99,
+            "r": 62
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "YellowButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Menu",
+          "font": "Kenney Mini.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2559,6 +2717,12 @@
       },
       {
         "objectName": "X"
+      },
+      {
+        "objectName": "GreenButton"
+      },
+      {
+        "objectName": "YellowButton"
       }
     ]
   },
@@ -2692,6 +2856,30 @@
             "Text",
             "=",
             "targets_left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "test_rocks"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GreenButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "YellowButton"
           ]
         }
       ]
@@ -4514,6 +4702,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
@@ -4540,14 +4740,6 @@
             "BlueLaser01",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
         }
       ]
     },
@@ -4565,18 +4757,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Barrel explosion.wav",
-            "",
-            "10",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "Delete"
@@ -4920,8 +5100,135 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Reload.mp3",
+            "",
+            "4",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Win",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Alive",
+                "False"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title Screen\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Frontliner\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

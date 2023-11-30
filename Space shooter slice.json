@@ -523,6 +523,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Reload.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Reload.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
