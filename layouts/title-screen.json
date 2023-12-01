@@ -1277,6 +1277,14 @@
             "YellowButton",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton"
+          ]
         }
       ],
       "actions": [
@@ -1303,6 +1311,14 @@
             "YellowButton2",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton2"
+          ]
         }
       ],
       "actions": []
@@ -1318,6 +1334,14 @@
             "YellowButton3",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton3"
+          ]
         }
       ],
       "actions": []
@@ -1332,6 +1356,14 @@
           "parameters": [
             "YellowButton4",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton4"
           ]
         }
       ],

@@ -20,8 +20,8 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Grotesque Pet",
-    "description": "",
+    "name": "BOOM",
+    "description": "Space Shooter Plus Plus",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -52,8 +52,14 @@
     },
     "authorIds": [],
     "authorUsernames": [],
-    "categories": [],
-    "playableDevices": [],
+    "categories": [
+      "adventure",
+      "shooter",
+      "strategy"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
