@@ -5248,19 +5248,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::Value"
-          },
-          "parameters": [
-            "PurpleSpace",
-            "Opacity",
-            "=",
-            "100"
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": []
     }
   ],
