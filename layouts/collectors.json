@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Frontliner",
-  "name": "Frontliner",
+  "mangledName": "Collectors",
+  "name": "Collectors",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -5240,7 +5240,7 @@
           },
           "parameters": [
             "",
-            "\"Frontliner\"",
+            "\"Collectors\"",
             ""
           ]
         }

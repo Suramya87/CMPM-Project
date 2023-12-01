@@ -1271,6 +1271,14 @@
       "conditions": [
         {
           "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton"
+          ]
+        },
+        {
+          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
@@ -1297,6 +1305,14 @@
       "conditions": [
         {
           "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton2"
+          ]
+        },
+        {
+          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
@@ -1312,7 +1328,7 @@
           },
           "parameters": [
             "",
-            "\"Collector\"",
+            "\"Collectors\"",
             ""
           ]
         }
@@ -1321,6 +1337,14 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton3"
+          ]
+        },
         {
           "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
@@ -1347,6 +1371,14 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton4"
+          ]
+        },
         {
           "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"

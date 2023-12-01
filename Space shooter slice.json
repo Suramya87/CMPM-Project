@@ -2222,19 +2222,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-<<<<<<< Updated upstream
-      "referenceTo": "/layouts/scouts"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/collector"
-=======
       "referenceTo": "/layouts/collectors"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scouts"
->>>>>>> Stashed changes
     }
   ],
   "externalEvents": [],
