@@ -8,6 +8,7 @@
   "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
+<<<<<<< Updated upstream
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -21,6 +22,9 @@
     "zoomFactor": 0.546875,
     "windowMask": false
   },
+=======
+  "uiSettings": {},
+>>>>>>> Stashed changes
   "objectsGroups": [],
   "variables": [],
   "instances": [],
