@@ -1277,14 +1277,6 @@
             "YellowButton",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "YellowButton"
-          ]
         }
       ],
       "actions": [
@@ -1311,17 +1303,20 @@
             "YellowButton2",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "YellowButton2"
-          ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Collector\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1334,17 +1329,20 @@
             "YellowButton3",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "YellowButton3"
-          ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scouts\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1356,14 +1354,6 @@
           "parameters": [
             "YellowButton4",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "YellowButton4"
           ]
         }
       ],
