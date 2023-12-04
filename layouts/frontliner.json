@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.46170663264054923,
+    "zoomFactor": 0.432075855264631,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4272,7 +4272,7 @@
             "BlueSpaceship3",
             "",
             "",
-            ""
+            "no"
           ]
         },
         {
@@ -4296,6 +4296,51 @@
           },
           "parameters": [
             "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
             ""
           ]
         },
@@ -4322,7 +4367,7 @@
             "BlueSpaceship3",
             "",
             "",
-            ""
+            "no"
           ]
         },
         {
@@ -4346,6 +4391,51 @@
           },
           "parameters": [
             "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
             ""
           ]
         },
@@ -4372,7 +4462,7 @@
             "BlueSpaceship3",
             "",
             "",
-            ""
+            "no"
           ]
         },
         {
@@ -4396,6 +4486,51 @@
           },
           "parameters": [
             "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
             ""
           ]
         },
@@ -4422,7 +4557,7 @@
             "BlueSpaceship3",
             "",
             "",
-            ""
+            "no"
           ]
         },
         {
@@ -4446,6 +4581,51 @@
           },
           "parameters": [
             "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
             ""
           ]
         },
