@@ -2197,6 +2197,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/4d8cfdae4934a160d7a712ac0242ffb00a330637bf9373f0870af014671423ea_tiled_Stars.png",
           "name": "tiled_Stars.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Solid Colour.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Solid Colour.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/0c1c754c8dbb456e059f31544e5cb51ee3de171b0a70c482d1d144c3e1bc2156_tiled_Starry Background Solid Colour.png",
+          "name": "tiled_Starry Background Solid Colour.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Stars 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Stars 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/efeabe9f9819c525c79fc9df113c3d619df6b02c094b42c54691755fac8cb661_tiled_Starry Background Stars 1.png",
+          "name": "tiled_Starry Background Stars 1.png"
+        }
       }
     ],
     "resourceFolders": []

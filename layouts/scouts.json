@@ -8,15 +8,3881 @@
   "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
-  "uiSettings": {},
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.29818570815065637,
+    "windowMask": false
+  },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1443,
+      "layer": "UI",
+      "name": "DarkPurpleSpace",
+      "persistentUuid": "32349599-c7ad-4c33-b5f7-3a0d0ef97b1e",
+      "width": 3046,
+      "x": -920,
+      "y": -299,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1446,
+      "layer": "UI",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "525ba94e-18df-4a2f-94b8-5538884289ee",
+      "width": 3047,
+      "x": -923,
+      "y": -301,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "2c9e69c4a54fcab6ebefc8c52572305ca235bbfe23ae00e98ec27064e72ce5f4",
+      "height": 128,
+      "name": "StarryBackgroundSolidColour",
+      "texture": "tiled_Starry Background Solid Colour.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "c20fe4657b50f46f901b666ddae13412211ef388c101136bacecd5bee34520b4",
+      "height": 128,
+      "name": "StarryBackgroundStars2",
+      "texture": "tiled_Starry Background Stars 2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "dbf6678e38db57bb0f0a83a0c9a516b206a0f47877a21e56ff9e114b8329a778",
+      "height": 128,
+      "name": "StarryBackgroundStars1",
+      "texture": "tiled_Starry Background Stars 1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "13cd7e810ccf090c3a8b9df66aa427613de5271d59507471a06f9ddbbccbcbf4",
+      "height": 128,
+      "name": "DarkPurpleSpace",
+      "texture": "tiled_dark purple space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "334742f332e2a979a46484f00e7c7d4be1fb555b540274e0f4c272549ade94c7",
+      "name": "OrangeBarrel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orange barrel.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 120,
+                        "y": 0
+                      },
+                      {
+                        "x": 120,
+                        "y": 140
+                      },
+                      {
+                        "x": 20,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "2e26ca0d100187eea0edc5b632137875629b12ce3777d8735d85112a9ac78c18",
+      "name": "GreenSpaceship1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green spaceship 1_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 99,
+                        "y": 0
+                      },
+                      {
+                        "x": 99,
+                        "y": 75
+                      },
+                      {
+                        "x": 0,
+                        "y": 75
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "StarryBackgroundSolidColour"
+      },
+      {
+        "objectName": "StarryBackgroundStars2"
+      },
+      {
+        "objectName": "StarryBackgroundStars1"
+      },
+      {
+        "objectName": "DarkPurpleSpace"
+      },
+      {
+        "objectName": "OrangeBarrel"
+      },
+      {
+        "objectName": "GreenSpaceship1"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Generator\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "barrels",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "targets_left",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "DoubleChevronArrowRight",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Win",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Game_Screen"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Targets",
+            "Text",
+            "=",
+            "targets_left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "test_rocks"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GreenButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "YellowButton"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "GreenButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Frontliner\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title Screen\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Win",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Alive",
+                "False"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Reload.mp3",
+            "",
+            "4",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Win",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Game_Screen",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "Game_Screen",
+            "\"63;20;20\"",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Game_Screen",
+            "Text",
+            "=",
+            "\"YOU LOSE\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Game_Screen",
+            "\"255;4;4\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Win",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Game_Screen",
+            "\"126;211;33\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Game_Screen",
+            "Text",
+            "=",
+            "\"YOU WIN\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "Game_Screen",
+            "\"65;117;5\"",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Game_Screen",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "targets_left",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Win",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::HasJustFired"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Lazers.mp3",
+            "",
+            "4",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            "InOnScreen",
+            "10",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            "InOnScreen",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            "=",
+            "AngleBetweenPositions(BlueSpaceship3.CenterX(),BlueSpaceship3.CenterY(),OrangeBarrel.CenterX(),OrangeBarrel.CenterY())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            "BlueSpaceship3",
+            "100",
+            "DoubleChevronArrowRight.Angle()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+              },
+              "parameters": [
+                "OrangeBarrel",
+                "InOnScreen",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DoubleChevronArrowRight"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+              },
+              "parameters": [
+                "OrangeBarrel",
+                "InOnScreen",
+                "10",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DoubleChevronArrowRight",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "arrows"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "BlueLaser01",
+            "InOnScreen",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "Explosion",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Explosion",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "targets_left",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Targets",
+            "Text",
+            "=",
+            "targets_left"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            "BlueLaser01",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "OrangeBarrel.CenterX()",
+            "OrangeBarrel.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "BlueLaser01.CenterX()",
+            "=",
+            "BlueLaser01.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "OrangeBarrel",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "spawn_tiles",
+            "OrangeBarrel",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "spawn_tiles",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "barrels",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "spawn_tiles"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "OrangeBarrel",
+            "spawn_tiles.X()",
+            "spawn_tiles.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "barrels",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "BlueLaser01",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Meteor explosion.wav",
+            "",
+            "5",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "BlueLaser01",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Meteor explosion.wav",
+            "",
+            "3",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "BlueLaser01",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Meteor explosion.wav",
+            "",
+            "3",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "BlueLaser01",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueLaser01",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Meteor explosion.wav",
+            "",
+            "5",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::FireTowardPosition"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            "BlueSpaceship3.X()",
+            "BlueSpaceship3.Y()",
+            "BlueLaser01",
+            "CursorX()",
+            "CursorY()",
+            "5000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "CursorX()",
+            "CursorY()",
+            "500",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Ammo",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Ammo",
+            "\"255;0;0\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "CursorX()",
+            "CursorY()",
+            "200",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "StarryBackgroundStars2",
+            "=",
+            "BlueSpaceship3.X()/3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::YOffset"
+          },
+          "parameters": [
+            "StarryBackgroundStars2",
+            "=",
+            "BlueSpaceship3.Y()/3"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Ammo",
+            "Text",
+            "=",
+            "ToString(BlueSpaceship3.FireBullet::ShotsBeforeNextReload())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x2",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x3",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x2",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x3",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x2",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor4",
+            "x3",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "+",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x2",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x3",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x2",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x3",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x2",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor2",
+            "x3",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "+",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x2",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x3",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x2",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x2",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x3",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigGreyMeteor1",
+            "x3",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "+",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x2",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x3",
+            "y",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x2",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x3",
+            "y2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x2",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BigBrownMeteor1",
+            "x3",
+            "y3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "+",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "rocks",
+            ">=",
+            "4000"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "RandomInRange(1,4)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "x",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "x2",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "x3",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "y",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "y2",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "y3",
+            "=",
+            "RandomFloatInRange(-14000,14000)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "test_rocks",
+            "Text",
+            "=",
+            "rocks"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Seed",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x2",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x3",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x2",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x3",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x2",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor1",
+                "x3",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "+",
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Seed",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x2",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x3",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x2",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x2",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x3",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor1",
+                "x3",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor1",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "+",
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Seed",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x2",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x3",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x2",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x3",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x2",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigBrownMeteor2",
+                "x3",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigBrownMeteor2",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "+",
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Seed",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x2",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x3",
+                "y",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x2",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x3",
+                "y2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x2",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigGreyMeteor4",
+                "x3",
+                "y3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "BigGreyMeteor4",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rocks",
+                "+",
+                "9"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Seed",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Generator\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "rocks",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "barrels",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "targets_left",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "DoubleChevronArrowRight",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Win",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Game_Screen"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Targets",
+            "Text",
+            "=",
+            "targets_left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "test_rocks"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GreenButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "YellowButton"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -43,6 +3909,38 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
