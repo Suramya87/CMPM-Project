@@ -1665,7 +1665,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "309132485876c4b4657727688c9b607e67f581a2255630f23c327a2d5374851f",
       "name": "BlueSpaceship3",
       "type": "Sprite",
@@ -1718,7 +1718,7 @@
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Blue spaceship 3_1.png",
                   "points": [],
                   "originPoint": {
@@ -1732,26 +1732,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 75
-                      },
-                      {
-                        "x": 0,
-                        "y": 75
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1760,7 +1741,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d5a6c1b2a6aaf3cb4b4626db6491f3fa491ed387f62202b9a4cf4482f0492b8a",
       "name": "BigBrownMeteor1",
       "type": "Sprite",
@@ -1795,20 +1776,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 1.5
                       },
                       {
                         "x": 101,
-                        "y": 0
+                        "y": 40.5
                       },
                       {
-                        "x": 101,
-                        "y": 84
+                        "x": 85,
+                        "y": 74.5
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 72
+                      },
+                      {
+                        "x": 28.5,
+                        "y": 82.5
                       },
                       {
                         "x": 0,
-                        "y": 84
+                        "y": 52
                       }
                     ]
                   ]
@@ -1820,7 +1813,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "bf1c5dfda23b391ebddff7b084f9d6099113e16eaf24c3fce11b016cdda0236a",
       "name": "BigBrownMeteor2",
       "type": "Sprite",
@@ -1855,20 +1848,36 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 76.5
                       },
                       {
-                        "x": 120,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 44.5
                       },
                       {
-                        "x": 120,
-                        "y": 98
+                        "x": 20,
+                        "y": 8
                       },
                       {
-                        "x": 0,
-                        "y": 98
+                        "x": 68,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 119.5,
+                        "y": 19
+                      },
+                      {
+                        "x": 106,
+                        "y": 67
+                      },
+                      {
+                        "x": 51.5,
+                        "y": 82
+                      },
+                      {
+                        "x": 34,
+                        "y": 97.5
                       }
                     ]
                   ]
@@ -1880,7 +1889,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d20d4cecc417c28108c97e154d8d0fc428907e4bd081d7ab578aa72eb383aa2c",
       "name": "BigGreyMeteor1",
       "type": "Sprite",
@@ -1916,19 +1925,31 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 52
                       },
                       {
-                        "x": 101,
-                        "y": 0
+                        "x": 17,
+                        "y": 1.5
                       },
                       {
-                        "x": 101,
-                        "y": 84
+                        "x": 74,
+                        "y": 1
                       },
                       {
-                        "x": 0,
-                        "y": 84
+                        "x": 100.5,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 84.5,
+                        "y": 74.5
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28.5,
+                        "y": 83
                       }
                     ]
                   ]
@@ -1940,7 +1961,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d47eb9e9c799ef14180dadc7714f72721227479c580d09ebd5e71168b98b0e23",
       "name": "BigGreyMeteor4",
       "type": "Sprite",
@@ -1976,19 +1997,27 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 58.5
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 66,
+                        "y": 1
                       },
                       {
                         "x": 98,
-                        "y": 0
+                        "y": 36
                       },
                       {
-                        "x": 98,
-                        "y": 96
+                        "x": 79.5,
+                        "y": 90.5
                       },
                       {
-                        "x": 0,
-                        "y": 96
+                        "x": 29,
+                        "y": 94.5
                       }
                     ]
                   ]
