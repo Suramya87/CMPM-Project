@@ -37,7 +37,13 @@
     },
     {
       "folded": true,
-      "name": "barrels",
+      "name": "gems_spawn",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "gems",
       "type": "number",
       "value": 0
     },
@@ -52,6 +58,12 @@
       "name": "targets_left",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "ammo",
+      "type": "number",
+      "value": 20
     },
     {
       "folded": true,
@@ -90,6 +102,18 @@
     {
       "folded": true,
       "name": "y3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "MAX_TIME",
+      "type": "number",
+      "value": 120
+    },
+    {
+      "folded": true,
+      "name": "CURRENT_TIME",
       "type": "number",
       "value": 0
     }
@@ -1275,21 +1299,6 @@
       "customSize": false,
       "height": 0,
       "layer": "UI",
-      "name": "Game_Screen",
-      "persistentUuid": "09f94a76-abc0-4db5-acbf-039eec822d1b",
-      "width": 0,
-      "x": 317,
-      "y": 281,
-      "zOrder": 80,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
       "name": "Targets",
       "persistentUuid": "04f72f22-39d1-4857-82e8-0c1cbdf5cdfc",
       "width": 0,
@@ -1311,22 +1320,6 @@
       "x": 125,
       "y": 30,
       "zOrder": 82,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 15,
-      "customSize": true,
-      "depth": 1,
-      "height": 70,
-      "layer": "UI",
-      "name": "UI_barrel",
-      "persistentUuid": "872ee580-d036-4916-a4a3-97b02d379802",
-      "width": 70,
-      "x": 35,
-      "y": 13,
-      "zOrder": 83,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1359,6 +1352,67 @@
       "x": 667,
       "y": 504,
       "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 106,
+      "layer": "UI",
+      "name": "Gem_UI",
+      "persistentUuid": "823d105d-34e3-4968-94f7-9585ed391a5b",
+      "width": 106,
+      "x": 18,
+      "y": 2,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Game_Screen",
+      "persistentUuid": "e9554c83-2d60-4ac6-8d89-85d5c1c584d3",
+      "width": 0,
+      "x": 205,
+      "y": 281,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Score",
+      "persistentUuid": "768f9c8e-caee-48d7-9ada-5fb050fabcaa",
+      "width": 0,
+      "x": 165,
+      "y": 28,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Timer",
+      "persistentUuid": "0817811f-a1a6-4216-9ba8-22df4fe0d536",
+      "width": 0,
+      "x": 608,
+      "y": 14,
+      "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2006,71 +2060,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "334742f332e2a979a46484f00e7c7d4be1fb555b540274e0f4c272549ade94c7",
-      "name": "OrangeBarrel",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Orange barrel.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 140
-                      },
-                      {
-                        "x": 20,
-                        "y": 140
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "height": 32,
       "name": "Spawn_protection",
@@ -2235,7 +2224,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "AMMO",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 55,
@@ -2381,7 +2370,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "ROCKS",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2402,7 +2391,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "GAME OVER",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 160,
@@ -2416,14 +2405,14 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Targets",
+      "name": "Score",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "SCORE",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2453,71 +2442,6 @@
         "g": 255,
         "r": 255
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "334742f332e2a979a46484f00e7c7d4be1fb555b540274e0f4c272549ade94c7",
-      "name": "UI_barrel",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Orange barrel.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 140
-                      },
-                      {
-                        "x": 20,
-                        "y": 140
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
@@ -2644,6 +2568,243 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a86371b22115484081c452e6e14e133308414b9964a121eeb67c9dcbf9972330",
+      "name": "Gem",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a86371b22115484081c452e6e14e133308414b9964a121eeb67c9dcbf9972330",
+      "name": "Gem_UI",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "TIMER",
+      "font": "Kenney Mini.ttf",
+      "textAlignment": "left",
+      "characterSize": 55,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2683,12 +2844,6 @@
         "objectName": "AmmoCrate"
       },
       {
-        "objectName": "OrangeBarrel"
-      },
-      {
-        "objectName": "UI_barrel"
-      },
-      {
         "objectName": "Spawn_protection"
       },
       {
@@ -2699,6 +2854,9 @@
       },
       {
         "objectName": "Ammo"
+      },
+      {
+        "objectName": "Timer"
       },
       {
         "objectName": "DoubleChevronArrowRight"
@@ -2713,7 +2871,7 @@
         "objectName": "Game_Screen"
       },
       {
-        "objectName": "Targets"
+        "objectName": "Score"
       },
       {
         "objectName": "X"
@@ -2723,6 +2881,12 @@
       },
       {
         "objectName": "YellowButton"
+      },
+      {
+        "objectName": "Gem"
+      },
+      {
+        "objectName": "Gem_UI"
       }
     ]
   },
@@ -2769,6 +2933,15 @@
         },
         {
           "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Game Time\""
+          ]
+        },
+        {
+          "type": {
             "value": "ModVarScene"
           },
           "parameters": [
@@ -2782,9 +2955,9 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "barrels",
+            "gems_spawn",
             "=",
-            "10"
+            "30"
           ]
         },
         {
@@ -2795,6 +2968,16 @@
             "targets_left",
             "=",
             "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CURRENT_TIME",
+            "=",
+            "Variable(MAX_TIME)"
           ]
         },
         {
@@ -2852,10 +3035,32 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Targets",
+            "Score",
             "Text",
             "=",
-            "targets_left"
+            "gems"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Ammo",
+            "Text",
+            "=",
+            "ToString(Variable(ammo))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(Variable(MAX_TIME))"
           ]
         },
         {
@@ -2880,6 +3085,22 @@
           },
           "parameters": [
             "YellowButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
           ]
         }
       ]
@@ -3937,70 +4158,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Ammo",
-            "Text",
-            "=",
-            "ToString(BlueSpaceship3.FireBullet::ShotsBeforeNextReload())"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Ammo",
-            "\"255;0;0\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Ammo",
-            "\"255;255;255\""
-          ]
         }
       ]
     },
@@ -4043,457 +4200,34 @@
             "",
             "Left"
           ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::FireTowardPosition"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            "BlueSpaceship3.X()",
-            "BlueSpaceship3.Y()",
-            "BlueLaser01",
-            "CursorX()",
-            "CursorY()",
-            "5000",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigBrownMeteor1",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigBrownMeteor1",
-            ""
-          ]
         },
         {
           "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "5",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigBrownMeteor2",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigBrownMeteor2",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "3",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "3",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "5",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigBrownMeteor1",
-            "BlueSpaceship3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "Spawn_protection",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Alive",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigBrownMeteor2",
-            "BlueSpaceship3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "Spawn_protection",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Alive",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            "BlueSpaceship3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "Spawn_protection",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Alive",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            "BlueSpaceship3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "Spawn_protection",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Alive",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
             "value": "VarScene"
           },
           "parameters": [
-            "barrels",
-            "=",
+            "ammo",
+            ">",
             "0"
           ]
         },
         {
           "type": {
-            "value": "AjoutHasard"
+            "inverted": true,
+            "value": "Visible"
           },
           "parameters": [
-            "",
-            "spawn_tiles"
+            "DoubleChevronArrowRight"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "Montre"
           },
           "parameters": [
-            "",
-            "OrangeBarrel",
-            "spawn_tiles.X()",
-            "spawn_tiles.Y()",
+            "DoubleChevronArrowRight",
             ""
           ]
         },
@@ -4502,37 +4236,36 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "barrels",
+            "ammo",
             "-",
             "1"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "spawn_tiles",
-            "OrangeBarrel",
-            "",
-            "",
-            ""
+            "Ammo",
+            "Text",
+            "=",
+            "ToString(Variable(ammo))"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "Delete"
+            "value": "Wait"
           },
           "parameters": [
-            "spawn_tiles",
-            ""
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
           ]
         }
       ]
@@ -4546,6 +4279,19 @@
           },
           "parameters": [
             "BigBrownMeteor1",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
             "Spawn_protection",
             "",
             "",
@@ -4559,113 +4305,21 @@
             "value": "Delete"
           },
           "parameters": [
-            "BigBrownMeteor1",
+            "BlueSpaceship3",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
-            "BigBrownMeteor2",
-            "Spawn_protection",
-            "",
-            "",
-            ""
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
           ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigBrownMeteor2",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            "Spawn_protection",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            "Spawn_protection",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "OrangeBarrel",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Create"
@@ -4673,21 +4327,9 @@
           "parameters": [
             "",
             "Explosion",
-            "OrangeBarrel.CenterX()",
-            "OrangeBarrel.CenterY()",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Explosion",
-            "=",
-            "BlueLaser01.CenterX()",
-            "=",
-            "BlueLaser01.CenterY()"
           ]
         },
         {
@@ -4714,6 +4356,56 @@
         },
         {
           "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
@@ -4725,20 +4417,45 @@
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "Create"
           },
           "parameters": [
-            "OrangeBarrel",
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
             ""
           ]
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "ChangePlan"
           },
           "parameters": [
-            "BlueLaser01",
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
           ]
         }
       ]
@@ -4748,11 +4465,27 @@
       "conditions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+            "value": "CollisionNP"
           },
           "parameters": [
-            "Explosion",
-            "Animation"
+            "BigGreyMeteor1",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -4762,29 +4495,157 @@
             "value": "Delete"
           },
           "parameters": [
-            "Explosion",
+            "BlueSpaceship3",
             ""
           ]
         },
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
-            "targets_left",
-            "-",
-            "1"
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "Create"
           },
           "parameters": [
-            "Targets",
-            "Text",
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
             "=",
-            "targets_left"
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Explosion",
+            "Scale",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "BlueSpaceship3.CenterX()",
+            "BlueSpaceship3.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Explosion",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "False"
           ]
         }
       ]
@@ -4795,12 +4656,61 @@
         {
           "type": {
             "inverted": true,
-            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+            "value": "VarScene"
           },
           "parameters": [
-            "BlueLaser01",
-            "InOnScreen",
-            "1",
+            "gems_spawn",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "spawn_tiles"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Gem",
+            "spawn_tiles.X()",
+            "spawn_tiles.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "gems_spawn",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "spawn_tiles",
+            "Gem",
+            "",
+            "",
             ""
           ]
         }
@@ -4811,8 +4721,181 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueLaser01",
+            "spawn_tiles",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigBrownMeteor2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            "Spawn_protection",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigGreyMeteor4",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Gem",
+            "BlueSpaceship3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Gem",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "gems",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Score",
+            "Text",
+            "=",
+            "gems"
           ]
         }
       ]
@@ -4837,7 +4920,7 @@
             "value": "PickNearest"
           },
           "parameters": [
-            "OrangeBarrel",
+            "Gem",
             "BlueSpaceship3.CenterX()",
             "BlueSpaceship3.CenterY()",
             ""
@@ -4852,7 +4935,7 @@
           "parameters": [
             "DoubleChevronArrowRight",
             "=",
-            "AngleBetweenPositions(BlueSpaceship3.CenterX(),BlueSpaceship3.CenterY(),OrangeBarrel.CenterX(),OrangeBarrel.CenterY())"
+            "AngleBetweenPositions(BlueSpaceship3.CenterX(),BlueSpaceship3.CenterY(),Gem.CenterX(),Gem.CenterY())"
           ]
         },
         {
@@ -4876,7 +4959,7 @@
                 "value": "IsOnScreen::InOnScreen::IsOnScreen"
               },
               "parameters": [
-                "OrangeBarrel",
+                "Gem",
                 "InOnScreen",
                 "0",
                 ""
@@ -4903,7 +4986,7 @@
                 "value": "IsOnScreen::InOnScreen::IsOnScreen"
               },
               "parameters": [
-                "OrangeBarrel",
+                "Gem",
                 "InOnScreen",
                 "10",
                 ""
@@ -4925,33 +5008,86 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Game Timer"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "FireBullet::FireBullet::HasJustFired"
+            "value": "CompareTimer"
           },
           "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
+            "",
+            "\"Game Time\"",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "CURRENT_TIME",
+            ">",
+            "0"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CURRENT_TIME",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(Variable(CURRENT_TIME))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
           },
           "parameters": [
             "",
-            "assets\\Lazers.mp3",
-            "",
-            "4",
-            ""
+            "\"Game Time\""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "End Game Logic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -4961,7 +5097,7 @@
             "value": "VarScene"
           },
           "parameters": [
-            "targets_left",
+            "CURRENT_TIME",
             "=",
             "0"
           ]
@@ -4970,66 +5106,28 @@
       "actions": [
         {
           "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueSpaceship3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
+          ]
+        },
+        {
+          "type": {
             "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "Win",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Win",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Game_Screen",
-            "\"126;211;33\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Game_Screen",
-            "Text",
-            "=",
-            "\"YOU WIN\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::SetOutline"
-          },
-          "parameters": [
-            "Game_Screen",
-            "\"65;117;5\"",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Game_Screen",
-            ""
+            "Alive",
+            "False"
           ]
         }
       ]
@@ -5043,15 +5141,6 @@
           },
           "parameters": [
             "Alive",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Win",
             "False"
           ]
         }
@@ -5084,7 +5173,7 @@
             "Game_Screen",
             "Text",
             "=",
-            "\"YOU LOSE\""
+            "\"GAME OVER\""
           ]
         },
         {
@@ -5095,69 +5184,7 @@
             "Game_Screen",
             "\"255;4;4\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Reload.mp3",
-            "",
-            "4",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "Win",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "Alive",
-                "False"
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Montre"
