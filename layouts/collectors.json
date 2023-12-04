@@ -5042,6 +5042,15 @@
             ">",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "True"
+          ]
         }
       ],
       "actions": [
