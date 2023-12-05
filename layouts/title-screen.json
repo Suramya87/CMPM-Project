@@ -22,7 +22,30 @@
     "windowMask": false
   },
   "objectsGroups": [],
+<<<<<<< Updated upstream
   "variables": [],
+=======
+  "variables": [
+    {
+      "folded": true,
+      "name": "loaded",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Explosions",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "sound",
+      "type": "boolean",
+      "value": false
+    }
+  ],
+>>>>>>> Stashed changes
   "instances": [
     {
       "angle": 0,
@@ -782,6 +805,24 @@
             "\"title\""
           ]
         },
+<<<<<<< Updated upstream
+=======
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "sound",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "5",
+      "conditions": [
+>>>>>>> Stashed changes
         {
           "type": {
             "value": "Wait"
@@ -830,6 +871,20 @@
             "0.1"
           ]
         },
+<<<<<<< Updated upstream
+=======
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "sound",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+>>>>>>> Stashed changes
         {
           "type": {
             "value": "Create"
@@ -842,6 +897,35 @@
             "\"title\""
           ]
         },
+<<<<<<< Updated upstream
+=======
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\mixkit-fast-game-explosion-1688.wav",
+            "",
+            "25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "sound",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+>>>>>>> Stashed changes
         {
           "type": {
             "value": "Wait"
@@ -1120,6 +1204,7 @@
         },
         {
           "type": {
+<<<<<<< Updated upstream
             "value": "PlaySound"
           },
           "parameters": [
@@ -1161,6 +1246,8 @@
         },
         {
           "type": {
+=======
+>>>>>>> Stashed changes
             "value": "Montre"
           },
           "parameters": [
