@@ -34,6 +34,12 @@
       "name": "Explosions",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "sound",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -792,6 +798,15 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "sound",
+            ""
+          ]
         }
       ]
     },
@@ -854,6 +869,15 @@
             ">=",
             "400"
           ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "sound",
+            "False"
+          ]
         }
       ],
       "actions": [
@@ -864,6 +888,27 @@
           "parameters": [
             "NewPanelSprite",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\mixkit-fast-game-explosion-1688.wav",
+            "",
+            "25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "sound",
+            "True"
           ]
         }
       ]
@@ -908,26 +953,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\mixkit-fast-game-explosion-1688.wav",
-            "",
-            "50",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
         {
           "type": {
             "value": "Montre"
