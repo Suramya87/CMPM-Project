@@ -2250,6 +2250,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chevron-Arrow-Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/afe50706def7a47730e0556dc031759efd60c1e365f46b6f7e3c23836320730e_Chevron-Arrow-Right.png",
+          "name": "Chevron-Arrow-Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Shadows 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Shadows 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/2cfc385feb7b37522b19e6dbdc19b5edcdbe21da1a1645cb4390c66ea0f19b0a_tiled_Starry Background Shadows 2.png",
+          "name": "tiled_Starry Background Shadows 2.png"
+        }
       }
     ],
     "resourceFolders": []

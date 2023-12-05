@@ -18,11 +18,24 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402156849,
+    "zoomFactor": 0.5468750000000013,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "loaded",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Explosions",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -772,44 +785,31 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "Explosions",
+            "=",
+            "0"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "5",
+      "conditions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "SceneVariableAsBoolean"
           },
           "parameters": [
-            "0.1"
+            "loaded",
+            ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Create"
@@ -832,292 +832,82 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "Explosions",
+            "+",
+            "1"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "VarScene"
           },
           "parameters": [
-            "0.1"
+            "Explosions",
+            ">=",
+            "400"
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "Montre"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "NewPanelSprite",
+            ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "VarScene"
           },
           "parameters": [
-            "0.1"
+            "Explosions",
+            ">=",
+            "500"
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "loaded",
+            "True"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "SceneVariableAsBoolean"
           },
           "parameters": [
-            "0.1"
+            "loaded",
+            "True"
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Explosion"
-          ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "PlaySound"
@@ -1127,27 +917,6 @@
             "assets\\mixkit-fast-game-explosion-1688.wav",
             "",
             "50",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "NewPanelSprite",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AddForceVersPos"
-          },
-          "parameters": [
-            "NewPanelSprite",
-            "-186",
-            "-480",
-            "100",
             ""
           ]
         },
@@ -1217,6 +986,15 @@
           "parameters": [
             "GreenButton"
           ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded",
+            "True"
+          ]
         }
       ],
       "actions": [
@@ -1258,10 +1036,11 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "GreenButton"
+            "GreenButton",
+            ""
           ]
         }
       ]
