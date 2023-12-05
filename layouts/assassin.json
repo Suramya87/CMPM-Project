@@ -18,10 +18,48 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740965,
+    "zoomFactor": 0.32169117647059314,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Background",
+      "objects": [
+        {
+          "name": "PurpleSpace"
+        },
+        {
+          "name": "BlackSpace"
+        },
+        {
+          "name": "BlueSpace"
+        },
+        {
+          "name": "DarkPurpleSpace"
+        },
+        {
+          "name": "StarryBackgroundStars2"
+        },
+        {
+          "name": "Stars"
+        }
+      ]
+    },
+    {
+      "name": "Enemies",
+      "objects": [
+        {
+          "name": "Enemy_2"
+        },
+        {
+          "name": "Enemy_1"
+        },
+        {
+          "name": "Enemy_3"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -65,8 +103,8 @@
       "name": "Stars",
       "persistentUuid": "a429c698-6f17-4d2e-9ad1-e29772c93aaa",
       "width": 21217,
-      "x": -7830,
-      "y": -7632,
+      "x": -7832,
+      "y": -7528,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -93,12 +131,60 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "BlackSpaceship3",
+      "name": "Player",
       "persistentUuid": "a74d89f2-0912-4642-bcbc-c28d2b59ed31",
       "width": 0,
-      "x": 573,
-      "y": 317,
+      "x": 630,
+      "y": 294,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 126,
+      "layer": "",
+      "name": "Enemy_1",
+      "persistentUuid": "c34414ce-3da0-47b9-b839-ac467588a961",
+      "width": 97,
+      "x": 1758,
+      "y": 280,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "layer": "",
+      "name": "Enemy_2",
+      "persistentUuid": "aa06ed59-7d59-4c93-8890-923c83e8267b",
+      "width": 95,
+      "x": 2224,
+      "y": 52,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "",
+      "name": "Enemy_3",
+      "persistentUuid": "0e36719d-c62c-4ee6-902b-a8e38342a8a7",
+      "width": 114,
+      "x": 1283,
+      "y": 548,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -107,22 +193,22 @@
   "objects": [
     {
       "assetStoreId": "0517471270cd0d788f0897173ef026fe98b68589d2a167a983408023fdfaad04",
-      "height": 128,
+      "height": 500,
       "name": "PurpleSpace",
       "texture": "tiled_purple space.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 900,
       "variables": [],
       "effects": [],
       "behaviors": []
     },
     {
       "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
-      "height": 128,
+      "height": 500,
       "name": "BlackSpace",
       "texture": "tiled_black space.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 900,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -189,11 +275,11 @@
     },
     {
       "assetStoreId": "747bdde8bda65d30484c55944bbe9e074ccec0351299831b5a81c1cf3665826f",
-      "height": 128,
+      "height": 500,
       "name": "BlueSpace",
       "texture": "tiled_blue space.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 900,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -201,12 +287,71 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "276522c2b589a6d19c48b4beeda1a881f4505a8868ef5c1e9d77cc998cfdf379",
-      "name": "BlueUfo",
+      "name": "Enemy_2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 50,
+          "CurrentHealth": 0,
+          "MaxHealth": 50,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -320,11 +465,11 @@
     },
     {
       "assetStoreId": "13cd7e810ccf090c3a8b9df66aa427613de5271d59507471a06f9ddbbccbcbf4",
-      "height": 128,
+      "height": 500,
       "name": "DarkPurpleSpace",
       "texture": "tiled_dark purple space.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 900,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -332,12 +477,71 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "309132485876c4b4657727688c9b607e67f581a2255630f23c327a2d5374851f",
-      "name": "BlueSpaceship3",
+      "name": "Enemy_1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1172,12 +1376,79 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "9385b0922d5c13453193a156c828d03c98c0e5fbb864e09f4fff02a5dcd2f002",
-      "name": "BlackSpaceship3",
+      "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.3,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 0,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen",
+          "MarginTop": 10,
+          "MarginBottom": 70,
+          "MarginLeft": 10,
+          "MarginRight": 70
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1532,12 +1803,71 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "d2abe2a01934fde8510b21a198085fadfa922f6265e6ee27bbd300fe9c442aa7",
-      "name": "BlueSpaceship8",
+      "name": "Enemy_3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 150,
+          "CurrentHealth": 0,
+          "MaxHealth": 150,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -5732,12 +6062,48 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "6b89c0b175ad4ea0eb30b70a64d1bcf55b692f513137c8d08466487d04ae7193",
-      "name": "BlueLaser08",
+      "name": "Enemy_Laser",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -7477,7 +7843,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -7777,7 +8149,38 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -8191,22 +8594,22 @@
     },
     {
       "assetStoreId": "c20fe4657b50f46f901b666ddae13412211ef388c101136bacecd5bee34520b4",
-      "height": 128,
+      "height": 500,
       "name": "StarryBackgroundStars2",
       "texture": "tiled_Starry Background Stars 2.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 900,
       "variables": [],
       "effects": [],
       "behaviors": []
     },
     {
       "assetStoreId": "fd379c8195801034f19db801308d47863fa450ac121fa84875421ef387d8787f",
-      "height": 128,
+      "height": 500,
       "name": "Stars",
       "texture": "tiled_Stars.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 900,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -8222,25 +8625,31 @@
         "objectName": "BlackSpace"
       },
       {
-        "objectName": "BlueSpaceship2"
+        "objectName": "DarkPurpleSpace"
       },
       {
         "objectName": "BlueSpace"
       },
       {
-        "objectName": "BlueUfo"
+        "objectName": "Enemy_1"
+      },
+      {
+        "objectName": "Enemy_2"
+      },
+      {
+        "objectName": "Enemy_3"
+      },
+      {
+        "objectName": "Enemy_Laser"
       },
       {
         "objectName": "BlueSpaceship1"
       },
       {
-        "objectName": "DarkPurpleSpace"
-      },
-      {
-        "objectName": "BlueSpaceship3"
-      },
-      {
         "objectName": "GreenSpaceship1"
+      },
+      {
+        "objectName": "BlueSpaceship2"
       },
       {
         "objectName": "GreenUfo"
@@ -8279,7 +8688,7 @@
         "objectName": "BlackSpaceship2"
       },
       {
-        "objectName": "BlackSpaceship3"
+        "objectName": "Player"
       },
       {
         "objectName": "BlackSpaceship4"
@@ -8295,9 +8704,6 @@
       },
       {
         "objectName": "BlueSpaceship7"
-      },
-      {
-        "objectName": "BlueSpaceship8"
       },
       {
         "objectName": "GreenSpaceship4"
@@ -8507,9 +8913,6 @@
         "objectName": "BlueLaser09"
       },
       {
-        "objectName": "BlueLaser08"
-      },
-      {
         "objectName": "BlueLaser07"
       },
       {
@@ -8639,54 +9042,16 @@
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "RotateTowardPosition"
-          },
-          "parameters": [
-            "BlackSpaceship3",
-            "CursorX()",
-            "CursorY()",
-            "200",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TiledSpriteObject::XOffset"
-          },
-          "parameters": [
-            "StarryBackgroundStars2",
-            "=",
-            "BlackSpaceship3.X()/3"
-          ]
-        },
-        {
-          "type": {
-            "value": "TiledSpriteObject::YOffset"
-          },
-          "parameters": [
-            "StarryBackgroundStars2",
-            "=",
-            "BlackSpaceship3.Y()/3"
-          ]
-        },
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "BlackSpaceship3",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Player"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -8704,13 +9069,463 @@
       "actions": [
         {
           "type": {
-            "value": "AddForceVersPos"
+            "value": "AddForceAL"
           },
           "parameters": [
-            "BlackSpaceship3",
-            "CursorX()",
-            "CursorY()",
-            "500",
+            "Player",
+            "270",
+            "400",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Player",
+            "180",
+            "400",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Player",
+            "90",
+            "400",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Player",
+            "0",
+            "400",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::Fire"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            "Player.X()+50",
+            "Player.Y()+30",
+            "RedLaser08",
+            "0",
+            "600",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "IsDamaged",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "Variable(IsDamaged)",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Enemy_Laser",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "IsDamaged",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Enemy_Laser",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsDead"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title Screen\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "+",
+            "150*TimeDelta()",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "Background",
+            "+",
+            "40*TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Player",
+            "150",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Enemies "
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Enemies",
+            "RedLaser08",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Enemies",
+            "Health",
+            "25",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "RedLaser08",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsDead"
+          },
+          "parameters": [
+            "Enemies",
+            "Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Enemies",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Enemies",
+            "<=",
+            "CameraX()+450"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Enemies",
+            "180",
+            "200",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Enemies",
+                "<=",
+                "CameraX()+150"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"EnemyFire\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::Fire"
+              },
+              "parameters": [
+                "Enemy_2",
+                "FireBullet",
+                "Enemy_2.X()-75",
+                "Enemy_2.Y()+30",
+                "Enemy_Laser",
+                "180",
+                "700",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Enemies",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "RedLaser08",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "IsDamaged",
+            "=",
+            "40"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Enemies",
             ""
           ]
         }
@@ -8772,8 +9587,16 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
@@ -8786,6 +9609,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
     }
   ]
 }
