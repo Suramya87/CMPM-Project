@@ -2197,6 +2197,85 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/4d8cfdae4934a160d7a712ac0242ffb00a330637bf9373f0870af014671423ea_tiled_Stars.png",
           "name": "tiled_Stars.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock (3).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/Rock/c088d4ebf4f36e223b48919bb3a76916ca9351f193cde8e30c5f29d804de90c6_Rock (3).png",
+          "name": "Rock (3).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gem_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gem_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/2a85e58f7f9ea5782bf2adc967e3b59dd24c1ce73ded086e608baa66530e1219_Gem_No Shadow.png",
+          "name": "Gem_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gem_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gem_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/01f9d3b58518d4cad72ef5331efe5d748e0c0326e7399c32419fda605611af8b_Gem_Shadow.png",
+          "name": "Gem_Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Coins 9.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chevron-Arrow-Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/afe50706def7a47730e0556dc031759efd60c1e365f46b6f7e3c23836320730e_Chevron-Arrow-Right.png",
+          "name": "Chevron-Arrow-Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Shadows 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Shadows 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/2cfc385feb7b37522b19e6dbdc19b5edcdbe21da1a1645cb4390c66ea0f19b0a_tiled_Starry Background Shadows 2.png",
+          "name": "tiled_Starry Background Shadows 2.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2219,6 +2298,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/assassin"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/collectors"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scouts"
     }
   ],
   "externalEvents": [],
