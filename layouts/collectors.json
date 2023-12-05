@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Frontliner",
-  "name": "Frontliner",
+  "mangledName": "Collectors",
+  "name": "Collectors",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.432075855264631,
+    "zoomFactor": 0.3101197480138246,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -37,7 +37,13 @@
     },
     {
       "folded": true,
-      "name": "barrels",
+      "name": "gems_spawn",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "gems",
       "type": "number",
       "value": 0
     },
@@ -52,6 +58,12 @@
       "name": "targets_left",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "ammo",
+      "type": "number",
+      "value": 20
     },
     {
       "folded": true,
@@ -90,6 +102,18 @@
     {
       "folded": true,
       "name": "y3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "MAX_TIME",
+      "type": "number",
+      "value": 120
+    },
+    {
+      "folded": true,
+      "name": "CURRENT_TIME",
       "type": "number",
       "value": 0
     }
@@ -151,8 +175,8 @@
       "name": "StarryBackgroundStars2",
       "persistentUuid": "4b925f00-3a8d-4fc4-b43c-22235d67e2dd",
       "width": 65718,
-      "x": -34002,
-      "y": -27500,
+      "x": -34034,
+      "y": -27480,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,24 +191,9 @@
       "name": "StarryBackgroundStars3",
       "persistentUuid": "700918f4-956b-4546-875d-a60ceb8bc435",
       "width": 76156,
-      "x": -40644,
-      "y": -28239,
+      "x": -38168,
+      "y": -27868,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "BlueSpaceship3",
-      "persistentUuid": "232f9f03-e2e5-4d00-a27e-b899d894a99d",
-      "width": 0,
-      "x": 607,
-      "y": 588,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -200,7 +209,7 @@
       "width": 2774,
       "x": -831,
       "y": -677,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -215,7 +224,7 @@
       "width": 0,
       "x": 1891,
       "y": 1040,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -245,7 +254,7 @@
       "width": 0,
       "x": 9975,
       "y": 6118,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -260,7 +269,7 @@
       "width": 0,
       "x": 3289,
       "y": 6357,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -275,7 +284,7 @@
       "width": 0,
       "x": 11467,
       "y": -1761,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -290,7 +299,7 @@
       "width": 0,
       "x": -6382,
       "y": 7730,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -305,7 +314,7 @@
       "width": 0,
       "x": -8172,
       "y": 865,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -320,7 +329,7 @@
       "width": 0,
       "x": -13903,
       "y": 8984,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -335,7 +344,7 @@
       "width": 0,
       "x": -11217,
       "y": 3969,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -350,7 +359,7 @@
       "width": 0,
       "x": -7277,
       "y": -9104,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -365,7 +374,7 @@
       "width": 0,
       "x": 10572,
       "y": -12865,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -380,7 +389,7 @@
       "width": 0,
       "x": 11169,
       "y": 1940,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -395,7 +404,7 @@
       "width": 0,
       "x": 13437,
       "y": -3314,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -410,7 +419,7 @@
       "width": 0,
       "x": 6333,
       "y": -4269,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -425,7 +434,7 @@
       "width": 0,
       "x": 1558,
       "y": -5403,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -440,7 +449,7 @@
       "width": 0,
       "x": -531,
       "y": -8447,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -455,7 +464,7 @@
       "width": 0,
       "x": -6023,
       "y": -4507,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -470,7 +479,7 @@
       "width": 0,
       "x": -8292,
       "y": -12089,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -485,7 +494,7 @@
       "width": 0,
       "x": 2155,
       "y": 10834,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -500,7 +509,7 @@
       "width": 0,
       "x": 13676,
       "y": 12625,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -515,7 +524,7 @@
       "width": 0,
       "x": 14452,
       "y": 7730,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -530,7 +539,7 @@
       "width": 0,
       "x": -5307,
       "y": 11312,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -545,7 +554,7 @@
       "width": 0,
       "x": 1916,
       "y": 5283,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -560,7 +569,7 @@
       "width": 0,
       "x": -4173,
       "y": 3492,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -575,7 +584,7 @@
       "width": 0,
       "x": -2203,
       "y": 12446,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -590,7 +599,7 @@
       "width": 0,
       "x": 10572,
       "y": 1223,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -605,7 +614,7 @@
       "width": 0,
       "x": 6214,
       "y": -9164,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -620,7 +629,7 @@
       "width": 0,
       "x": 1916,
       "y": -6895,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -635,7 +644,7 @@
       "width": 0,
       "x": -4591,
       "y": -8029,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -650,7 +659,7 @@
       "width": 0,
       "x": -12291,
       "y": -9044,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -665,7 +674,7 @@
       "width": 0,
       "x": -9605,
       "y": 328,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -680,7 +689,7 @@
       "width": 0,
       "x": -11098,
       "y": 9819,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -695,7 +704,7 @@
       "width": 0,
       "x": -10142,
       "y": 2298,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -710,7 +719,7 @@
       "width": 0,
       "x": -7635,
       "y": -7015,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -725,7 +734,7 @@
       "width": 0,
       "x": 10035,
       "y": -7910,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -740,7 +749,7 @@
       "width": 0,
       "x": 11169,
       "y": -11969,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -755,7 +764,7 @@
       "width": 0,
       "x": 11467,
       "y": 11371,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -770,7 +779,7 @@
       "width": 0,
       "x": -8053,
       "y": 11610,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -785,7 +794,7 @@
       "width": 0,
       "x": -13844,
       "y": 1940,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -800,7 +809,7 @@
       "width": 0,
       "x": -12829,
       "y": -4925,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -815,7 +824,7 @@
       "width": 0,
       "x": -7993,
       "y": -8507,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -830,7 +839,7 @@
       "width": 0,
       "x": -13724,
       "y": -11313,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -845,7 +854,7 @@
       "width": 0,
       "x": -7217,
       "y": -13521,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -860,7 +869,7 @@
       "width": 0,
       "x": -11336,
       "y": -10955,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -875,7 +884,7 @@
       "width": 0,
       "x": -5844,
       "y": -8149,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -890,7 +899,7 @@
       "width": 0,
       "x": -3695,
       "y": -5164,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -905,7 +914,7 @@
       "width": 0,
       "x": -1427,
       "y": -8507,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -920,7 +929,7 @@
       "width": 0,
       "x": -2681,
       "y": -5522,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -935,7 +944,7 @@
       "width": 0,
       "x": -4352,
       "y": -14178,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -950,7 +959,7 @@
       "width": 0,
       "x": -5785,
       "y": -9462,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -965,7 +974,7 @@
       "width": 0,
       "x": 1916,
       "y": -5164,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -980,7 +989,7 @@
       "width": 0,
       "x": 1856,
       "y": -1284,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -995,7 +1004,7 @@
       "width": 0,
       "x": 2155,
       "y": 5999,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1010,7 +1019,7 @@
       "width": 0,
       "x": 5259,
       "y": 1581,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1025,7 +1034,7 @@
       "width": 0,
       "x": 2155,
       "y": 3014,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1040,7 +1049,7 @@
       "width": 0,
       "x": 245,
       "y": 2537,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1055,7 +1064,7 @@
       "width": 0,
       "x": 2632,
       "y": 567,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1070,7 +1079,7 @@
       "width": 0,
       "x": 125,
       "y": 12804,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1085,7 +1094,7 @@
       "width": 0,
       "x": 1438,
       "y": 13043,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1100,7 +1109,7 @@
       "width": 0,
       "x": 6990,
       "y": 10476,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1115,7 +1124,7 @@
       "width": 0,
       "x": 2991,
       "y": 7969,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1130,7 +1139,7 @@
       "width": 0,
       "x": 8960,
       "y": -5940,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1145,7 +1154,7 @@
       "width": 0,
       "x": 8960,
       "y": -3075,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1160,7 +1169,7 @@
       "width": 0,
       "x": 7348,
       "y": -2358,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1175,7 +1184,7 @@
       "width": 0,
       "x": 9199,
       "y": -269,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1190,7 +1199,7 @@
       "width": 0,
       "x": 3587,
       "y": -3134,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1205,7 +1214,7 @@
       "width": 0,
       "x": 1379,
       "y": -3194,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1220,7 +1229,7 @@
       "width": 0,
       "x": 1080,
       "y": -2120,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1235,7 +1244,7 @@
       "width": 0,
       "x": -1427,
       "y": -3612,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1250,7 +1259,7 @@
       "width": 0,
       "x": -651,
       "y": -6239,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1266,21 +1275,6 @@
       "x": 1146,
       "y": 35,
       "zOrder": 79,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "Game_Screen",
-      "persistentUuid": "09f94a76-abc0-4db5-acbf-039eec822d1b",
-      "width": 0,
-      "x": 317,
-      "y": 281,
-      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1316,22 +1310,6 @@
       "initialVariables": []
     },
     {
-      "angle": 15,
-      "customSize": true,
-      "depth": 1,
-      "height": 70,
-      "layer": "UI",
-      "name": "UI_barrel",
-      "persistentUuid": "872ee580-d036-4916-a4a3-97b02d379802",
-      "width": 70,
-      "x": 35,
-      "y": 13,
-      "zOrder": 83,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 32,
@@ -1359,6 +1337,83 @@
       "x": 667,
       "y": 504,
       "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 106,
+      "layer": "UI",
+      "name": "Gem_UI",
+      "persistentUuid": "823d105d-34e3-4968-94f7-9585ed391a5b",
+      "width": 106,
+      "x": 18,
+      "y": 2,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Game_Screen",
+      "persistentUuid": "e9554c83-2d60-4ac6-8d89-85d5c1c584d3",
+      "width": 0,
+      "x": 205,
+      "y": 281,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Score",
+      "persistentUuid": "768f9c8e-caee-48d7-9ada-5fb050fabcaa",
+      "width": 0,
+      "x": 165,
+      "y": 28,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Timer",
+      "persistentUuid": "0817811f-a1a6-4216-9ba8-22df4fe0d536",
+      "width": 0,
+      "x": 608,
+      "y": 14,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "",
+      "name": "RedSpaceship4",
+      "persistentUuid": "d29d82b3-4ea3-4ca9-8adc-a262c1f277e3",
+      "width": 121,
+      "x": 567,
+      "y": 578,
+      "zOrder": 89,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1611,7 +1666,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "309132485876c4b4657727688c9b607e67f581a2255630f23c327a2d5374851f",
       "name": "BlueSpaceship3",
       "type": "Sprite",
@@ -1681,20 +1736,52 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 75
+                        "x": 8.5,
+                        "y": 70
                       },
                       {
                         "x": 0,
-                        "y": 75
+                        "y": 61.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 61,
+                        "y": 39
+                      },
+                      {
+                        "x": 75,
+                        "y": 45
+                      },
+                      {
+                        "x": 75,
+                        "y": 52
+                      },
+                      {
+                        "x": 60,
+                        "y": 59.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 97
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 97
                       }
                     ]
                   ]
@@ -1706,7 +1793,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d5a6c1b2a6aaf3cb4b4626db6491f3fa491ed387f62202b9a4cf4482f0492b8a",
       "name": "BigBrownMeteor1",
       "type": "Sprite",
@@ -1741,20 +1828,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 1.5
                       },
                       {
                         "x": 101,
-                        "y": 0
+                        "y": 40.5
                       },
                       {
-                        "x": 101,
-                        "y": 84
+                        "x": 85,
+                        "y": 74.5
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 72
+                      },
+                      {
+                        "x": 28.5,
+                        "y": 82.5
                       },
                       {
                         "x": 0,
-                        "y": 84
+                        "y": 52
                       }
                     ]
                   ]
@@ -1766,7 +1865,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "bf1c5dfda23b391ebddff7b084f9d6099113e16eaf24c3fce11b016cdda0236a",
       "name": "BigBrownMeteor2",
       "type": "Sprite",
@@ -1801,20 +1900,36 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 76.5
                       },
                       {
-                        "x": 120,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 44.5
                       },
                       {
-                        "x": 120,
-                        "y": 98
+                        "x": 20,
+                        "y": 8
                       },
                       {
-                        "x": 0,
-                        "y": 98
+                        "x": 68,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 119.5,
+                        "y": 19
+                      },
+                      {
+                        "x": 106,
+                        "y": 67
+                      },
+                      {
+                        "x": 51.5,
+                        "y": 82
+                      },
+                      {
+                        "x": 34,
+                        "y": 97.5
                       }
                     ]
                   ]
@@ -1826,7 +1941,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d20d4cecc417c28108c97e154d8d0fc428907e4bd081d7ab578aa72eb383aa2c",
       "name": "BigGreyMeteor1",
       "type": "Sprite",
@@ -1862,19 +1977,31 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 52
                       },
                       {
-                        "x": 101,
-                        "y": 0
+                        "x": 17,
+                        "y": 1.5
                       },
                       {
-                        "x": 101,
-                        "y": 84
+                        "x": 74,
+                        "y": 1
                       },
                       {
-                        "x": 0,
-                        "y": 84
+                        "x": 100.5,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 84.5,
+                        "y": 74.5
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28.5,
+                        "y": 83
                       }
                     ]
                   ]
@@ -1886,7 +2013,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d47eb9e9c799ef14180dadc7714f72721227479c580d09ebd5e71168b98b0e23",
       "name": "BigGreyMeteor4",
       "type": "Sprite",
@@ -1922,144 +2049,27 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 58.5
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 66,
+                        "y": 1
                       },
                       {
                         "x": 98,
-                        "y": 0
+                        "y": 36
                       },
                       {
-                        "x": 98,
-                        "y": 96
+                        "x": 79.5,
+                        "y": 90.5
                       },
                       {
-                        "x": 0,
-                        "y": 96
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "4cfc130bd046e5aa5dcf699f0cedeca6d6ad0174fd08e01a055ea665fb073096",
-      "name": "AmmoCrate",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ammo crate.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 100,
-                        "y": 0
-                      },
-                      {
-                        "x": 100,
-                        "y": 100
-                      },
-                      {
-                        "x": 0,
-                        "y": 100
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "334742f332e2a979a46484f00e7c7d4be1fb555b540274e0f4c272549ade94c7",
-      "name": "OrangeBarrel",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Orange barrel.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 140
-                      },
-                      {
-                        "x": 20,
-                        "y": 140
+                        "x": 29,
+                        "y": 94.5
                       }
                     ]
                   ]
@@ -2235,7 +2245,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "AMMO",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 55,
@@ -2381,7 +2391,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "ROCKS",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2402,7 +2412,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "GAME OVER",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 160,
@@ -2416,14 +2426,14 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Targets",
+      "name": "Score",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "SCORE",
       "font": "Kenney Mini.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2453,71 +2463,6 @@
         "g": 255,
         "r": 255
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "334742f332e2a979a46484f00e7c7d4be1fb555b540274e0f4c272549ade94c7",
-      "name": "UI_barrel",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Orange barrel.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 140
-                      },
-                      {
-                        "x": 20,
-                        "y": 140
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
@@ -2644,6 +2589,363 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a86371b22115484081c452e6e14e133308414b9964a121eeb67c9dcbf9972330",
+      "name": "Gem",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a86371b22115484081c452e6e14e133308414b9964a121eeb67c9dcbf9972330",
+      "name": "Gem_UI",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "TIMER",
+      "font": "Kenney Mini.ttf",
+      "textAlignment": "left",
+      "characterSize": 55,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "78b8c5c11442e83166a1b225cca8b5783d6100af54c849fb90c26e7072958ac8",
+      "name": "RedSpaceship4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red spaceship 4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 84
+                      },
+                      {
+                        "x": 0,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "876c096f2525e4793e095052f0176702c9813a6f3282f1a779e43c102a65bcc8",
+      "name": "ChevronArrowRight",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chevron-Arrow-Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2680,15 +2982,6 @@
         "objectName": "BigGreyMeteor4"
       },
       {
-        "objectName": "AmmoCrate"
-      },
-      {
-        "objectName": "OrangeBarrel"
-      },
-      {
-        "objectName": "UI_barrel"
-      },
-      {
         "objectName": "Spawn_protection"
       },
       {
@@ -2699,6 +2992,9 @@
       },
       {
         "objectName": "Ammo"
+      },
+      {
+        "objectName": "Timer"
       },
       {
         "objectName": "DoubleChevronArrowRight"
@@ -2713,7 +3009,7 @@
         "objectName": "Game_Screen"
       },
       {
-        "objectName": "Targets"
+        "objectName": "Score"
       },
       {
         "objectName": "X"
@@ -2723,6 +3019,18 @@
       },
       {
         "objectName": "YellowButton"
+      },
+      {
+        "objectName": "Gem"
+      },
+      {
+        "objectName": "Gem_UI"
+      },
+      {
+        "objectName": "RedSpaceship4"
+      },
+      {
+        "objectName": "ChevronArrowRight"
       }
     ]
   },
@@ -2769,6 +3077,26 @@
         },
         {
           "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Game Time\""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "PurpleSpace",
+            "Opacity",
+            "=",
+            "75"
+          ]
+        },
+        {
+          "type": {
             "value": "ModVarScene"
           },
           "parameters": [
@@ -2782,9 +3110,9 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "barrels",
+            "gems_spawn",
             "=",
-            "10"
+            "30"
           ]
         },
         {
@@ -2799,13 +3127,23 @@
         },
         {
           "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CURRENT_TIME",
+            "=",
+            "Variable(MAX_TIME)"
+          ]
+        },
+        {
+          "type": {
             "value": "Create"
           },
           "parameters": [
             "",
             "DoubleChevronArrowRight",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "RedSpaceship4.CenterX()",
+            "RedSpaceship4.CenterY()",
             ""
           ]
         },
@@ -2852,10 +3190,32 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Targets",
+            "Score",
             "Text",
             "=",
-            "targets_left"
+            "gems"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Ammo",
+            "Text",
+            "=",
+            "ToString(Variable(ammo))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(Variable(MAX_TIME))"
           ]
         },
         {
@@ -2880,6 +3240,22 @@
           },
           "parameters": [
             "YellowButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
           ]
         }
       ]
@@ -3899,7 +4275,7 @@
             "value": "RotateTowardPosition"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "CursorX()",
             "CursorY()",
             "200",
@@ -3913,7 +4289,7 @@
           "parameters": [
             "StarryBackgroundStars2",
             "=",
-            "BlueSpaceship3.X()/3"
+            "RedSpaceship4.X()/3"
           ]
         },
         {
@@ -3923,7 +4299,7 @@
           "parameters": [
             "StarryBackgroundStars2",
             "=",
-            "BlueSpaceship3.Y()/3"
+            "RedSpaceship4.Y()/3"
           ]
         },
         {
@@ -3932,74 +4308,10 @@
           },
           "parameters": [
             "",
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Ammo",
-            "Text",
-            "=",
-            "ToString(BlueSpaceship3.FireBullet::ShotsBeforeNextReload())"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Ammo",
-            "\"255;0;0\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Ammo",
-            "\"255;255;255\""
           ]
         }
       ]
@@ -4023,7 +4335,7 @@
             "value": "AddForceVersPos"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "CursorX()",
             "CursorY()",
             "500",
@@ -4041,25 +4353,74 @@
           },
           "parameters": [
             "",
-            "Left"
+            "Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "ammo",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "FireBullet::FireBullet::FireTowardPosition"
+            "value": "Montre"
           },
           "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            "BlueSpaceship3.X()",
-            "BlueSpaceship3.Y()",
-            "BlueLaser01",
-            "CursorX()",
-            "CursorY()",
-            "5000",
+            "DoubleChevronArrowRight",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "ammo",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Ammo",
+            "Text",
+            "=",
+            "ToString(Variable(ammo))"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
           ]
         }
       ]
@@ -4073,206 +4434,10 @@
           },
           "parameters": [
             "BigBrownMeteor1",
-            "BlueLaser01",
+            "RedSpaceship4",
             "",
             "",
             ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigBrownMeteor1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "5",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigBrownMeteor2",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigBrownMeteor2",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "3",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigGreyMeteor1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "3",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            "BlueLaser01",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BigGreyMeteor4",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Meteor explosion.wav",
-            "",
-            "5",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "BigBrownMeteor1",
-            "BlueSpaceship3",
-            "",
-            "",
-            "no"
           ]
         },
         {
@@ -4281,7 +4446,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "Spawn_protection",
             "",
             "",
@@ -4295,7 +4460,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             ""
           ]
         },
@@ -4317,8 +4482,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "RedSpaceship4.CenterX()",
+            "RedSpaceship4.CenterY()",
             ""
           ]
         },
@@ -4364,10 +4529,10 @@
           },
           "parameters": [
             "BigBrownMeteor2",
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "",
             "",
-            "no"
+            ""
           ]
         },
         {
@@ -4376,7 +4541,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "Spawn_protection",
             "",
             "",
@@ -4390,7 +4555,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             ""
           ]
         },
@@ -4412,8 +4577,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "RedSpaceship4.CenterX()",
+            "RedSpaceship4.CenterY()",
             ""
           ]
         },
@@ -4459,10 +4624,10 @@
           },
           "parameters": [
             "BigGreyMeteor1",
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "",
             "",
-            "no"
+            ""
           ]
         },
         {
@@ -4471,7 +4636,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "Spawn_protection",
             "",
             "",
@@ -4485,7 +4650,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             ""
           ]
         },
@@ -4507,8 +4672,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "RedSpaceship4.CenterX()",
+            "RedSpaceship4.CenterY()",
             ""
           ]
         },
@@ -4554,10 +4719,10 @@
           },
           "parameters": [
             "BigGreyMeteor4",
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "",
             "",
-            "no"
+            ""
           ]
         },
         {
@@ -4566,7 +4731,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "Spawn_protection",
             "",
             "",
@@ -4580,7 +4745,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "RedSpaceship4",
             ""
           ]
         },
@@ -4602,8 +4767,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "RedSpaceship4.CenterX()",
+            "RedSpaceship4.CenterY()",
             ""
           ]
         },
@@ -4649,7 +4814,7 @@
             "value": "VarScene"
           },
           "parameters": [
-            "barrels",
+            "gems_spawn",
             "=",
             "0"
           ]
@@ -4671,7 +4836,7 @@
           },
           "parameters": [
             "",
-            "OrangeBarrel",
+            "Gem",
             "spawn_tiles.X()",
             "spawn_tiles.Y()",
             ""
@@ -4682,7 +4847,7 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "barrels",
+            "gems_spawn",
             "-",
             "1"
           ]
@@ -4698,7 +4863,7 @@
           },
           "parameters": [
             "spawn_tiles",
-            "OrangeBarrel",
+            "Gem",
             "",
             "",
             ""
@@ -4837,8 +5002,8 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "OrangeBarrel",
-            "BlueLaser01",
+            "Gem",
+            "RedSpaceship4",
             "",
             "",
             ""
@@ -4848,45 +5013,11 @@
       "actions": [
         {
           "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "OrangeBarrel.CenterX()",
-            "OrangeBarrel.CenterY()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Explosion",
-            "=",
-            "BlueLaser01.CenterX()",
-            "=",
-            "BlueLaser01.CenterY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "Explosion",
-            "=",
-            "30"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
             "",
-            "assets\\Barrel explosion.wav",
+            "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
             "",
             "10",
             ""
@@ -4894,55 +5025,10 @@
         },
         {
           "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "Explosion",
-            "Scale",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
             "value": "Delete"
           },
           "parameters": [
-            "OrangeBarrel",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-          },
-          "parameters": [
-            "Explosion",
-            "Animation"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Explosion",
+            "Gem",
             ""
           ]
         },
@@ -4951,8 +5037,8 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "targets_left",
-            "-",
+            "gems",
+            "+",
             "1"
           ]
         },
@@ -4961,38 +5047,10 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Targets",
+            "Score",
             "Text",
             "=",
-            "targets_left"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "IsOnScreen::InOnScreen::IsOnScreen"
-          },
-          "parameters": [
-            "BlueLaser01",
-            "InOnScreen",
-            "1",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BlueLaser01",
-            ""
+            "gems"
           ]
         }
       ]
@@ -5017,9 +5075,9 @@
             "value": "PickNearest"
           },
           "parameters": [
-            "OrangeBarrel",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Gem",
+            "RedSpaceship4.CenterX()",
+            "RedSpaceship4.CenterY()",
             ""
           ]
         }
@@ -5032,7 +5090,7 @@
           "parameters": [
             "DoubleChevronArrowRight",
             "=",
-            "AngleBetweenPositions(BlueSpaceship3.CenterX(),BlueSpaceship3.CenterY(),OrangeBarrel.CenterX(),OrangeBarrel.CenterY())"
+            "AngleBetweenPositions(RedSpaceship4.CenterX(),RedSpaceship4.CenterY(),Gem.CenterX(),Gem.CenterY())"
           ]
         },
         {
@@ -5041,7 +5099,7 @@
           },
           "parameters": [
             "DoubleChevronArrowRight",
-            "BlueSpaceship3",
+            "RedSpaceship4",
             "100",
             "DoubleChevronArrowRight.Angle()"
           ]
@@ -5056,7 +5114,7 @@
                 "value": "IsOnScreen::InOnScreen::IsOnScreen"
               },
               "parameters": [
-                "OrangeBarrel",
+                "Gem",
                 "InOnScreen",
                 "0",
                 ""
@@ -5083,7 +5141,7 @@
                 "value": "IsOnScreen::InOnScreen::IsOnScreen"
               },
               "parameters": [
-                "OrangeBarrel",
+                "Gem",
                 "InOnScreen",
                 "10",
                 ""
@@ -5105,33 +5163,95 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Game Timer"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "FireBullet::FireBullet::HasJustFired"
+            "value": "CompareTimer"
           },
           "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
+            "",
+            "\"Game Time\"",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "CURRENT_TIME",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Alive",
+            "True"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CURRENT_TIME",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(Variable(CURRENT_TIME))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
           },
           "parameters": [
             "",
-            "assets\\Lazers.mp3",
-            "",
-            "4",
-            ""
+            "\"Game Time\""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "End Game Logic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -5141,7 +5261,7 @@
             "value": "VarScene"
           },
           "parameters": [
-            "targets_left",
+            "CURRENT_TIME",
             "=",
             "0"
           ]
@@ -5150,66 +5270,28 @@
       "actions": [
         {
           "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "RedSpaceship4",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoubleChevronArrowRight"
+          ]
+        },
+        {
+          "type": {
             "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "Win",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Win",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Game_Screen",
-            "\"126;211;33\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Game_Screen",
-            "Text",
-            "=",
-            "\"YOU WIN\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::SetOutline"
-          },
-          "parameters": [
-            "Game_Screen",
-            "\"65;117;5\"",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Game_Screen",
-            ""
+            "Alive",
+            "False"
           ]
         }
       ]
@@ -5223,15 +5305,6 @@
           },
           "parameters": [
             "Alive",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Win",
             "False"
           ]
         }
@@ -5264,7 +5337,7 @@
             "Game_Screen",
             "Text",
             "=",
-            "\"YOU LOSE\""
+            "\"GAME OVER\""
           ]
         },
         {
@@ -5275,69 +5348,7 @@
             "Game_Screen",
             "\"255;4;4\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Reload.mp3",
-            "",
-            "4",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "Win",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "Alive",
-                "False"
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Montre"
@@ -5420,11 +5431,16 @@
           },
           "parameters": [
             "",
-            "\"Frontliner\"",
+            "\"Collectors\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

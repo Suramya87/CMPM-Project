@@ -18,13 +18,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402156849,
+    "zoomFactor": 0.5468750000000013,
     "windowMask": false
   },
   "objectsGroups": [],
-<<<<<<< Updated upstream
-  "variables": [],
-=======
   "variables": [
     {
       "folded": true,
@@ -45,7 +42,6 @@
       "value": false
     }
   ],
->>>>>>> Stashed changes
   "instances": [
     {
       "angle": 0,
@@ -795,18 +791,14 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "Explosions",
+            "=",
+            "0"
           ]
         },
-<<<<<<< Updated upstream
-=======
         {
           "type": {
             "value": "SetSceneVariableAsBoolean"
@@ -822,35 +814,17 @@
       "type": "BuiltinCommonInstructions::Repeat",
       "repeatExpression": "5",
       "conditions": [
->>>>>>> Stashed changes
         {
           "type": {
-            "value": "Wait"
+            "value": "SceneVariableAsBoolean"
           },
           "parameters": [
-            "0.1"
+            "loaded",
+            ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Create"
@@ -871,8 +845,31 @@
             "0.1"
           ]
         },
-<<<<<<< Updated upstream
-=======
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Explosions",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Explosions",
+            ">=",
+            "400"
+          ]
+        },
         {
           "type": {
             "value": "SceneVariableAsBoolean"
@@ -884,21 +881,15 @@
         }
       ],
       "actions": [
->>>>>>> Stashed changes
         {
           "type": {
-            "value": "Create"
+            "value": "Montre"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "NewPanelSprite",
+            ""
           ]
         },
-<<<<<<< Updated upstream
-=======
         {
           "type": {
             "value": "PlaySound"
@@ -925,329 +916,45 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
->>>>>>> Stashed changes
         {
           "type": {
-            "value": "Wait"
+            "value": "VarScene"
           },
           "parameters": [
-            "0.1"
+            "Explosions",
+            ">=",
+            "500"
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
+            "loaded",
+            "True"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "SceneVariableAsBoolean"
           },
           "parameters": [
-            "0.1"
+            "loaded",
+            "True"
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Explosion",
-            "RandomFloatInRange(120,1111)",
-            "RandomFloatInRange(69,400)",
-            "\"title\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Explosion"
-          ]
-        },
-        {
-          "type": {
-<<<<<<< Updated upstream
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\mixkit-fast-game-explosion-1688.wav",
-            "",
-            "50",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "NewPanelSprite",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AddForceVersPos"
-          },
-          "parameters": [
-            "NewPanelSprite",
-            "-186",
-            "-480",
-            "100",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-=======
->>>>>>> Stashed changes
             "value": "Montre"
           },
           "parameters": [
@@ -1304,6 +1011,15 @@
           "parameters": [
             "GreenButton"
           ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "loaded",
+            "True"
+          ]
         }
       ],
       "actions": [
@@ -1345,10 +1061,11 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "GreenButton"
+            "GreenButton",
+            ""
           ]
         }
       ]
@@ -1356,6 +1073,14 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton"
+          ]
+        },
         {
           "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
@@ -1384,6 +1109,14 @@
       "conditions": [
         {
           "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton2"
+          ]
+        },
+        {
+          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
@@ -1392,11 +1125,30 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Collectors\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton3"
+          ]
+        },
         {
           "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
@@ -1407,11 +1159,30 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scouts\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "YellowButton4"
+          ]
+        },
         {
           "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
