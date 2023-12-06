@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.32169117647059314,
+    "zoomFactor": 0.2817259932079601,
     "windowMask": false
   },
   "objectsGroups": [
@@ -52,10 +52,24 @@
           "name": "Enemy_2"
         },
         {
-          "name": "Enemy_1"
+          "name": "Enemy_4"
         },
         {
           "name": "Enemy_3"
+        },
+        {
+          "name": "Enemy_1"
+        }
+      ]
+    },
+    {
+      "name": "enemy_laser",
+      "objects": [
+        {
+          "name": "Enemy_Laser"
+        },
+        {
+          "name": "Enemy_12"
         }
       ]
     }
@@ -70,9 +84,9 @@
       "layer": "",
       "name": "PurpleSpace",
       "persistentUuid": "36bbdcb0-bc33-4fe3-aa6f-f3d3bf5c8516",
-      "width": 14873,
-      "x": -6957,
-      "y": -6734,
+      "width": 48880,
+      "x": -756,
+      "y": -6860,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,13 +96,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 18604,
+      "height": 10300,
       "layer": "",
       "name": "StarryBackgroundStars2",
       "persistentUuid": "8ef9b2b3-8346-4ebd-becb-aff6da24cb41",
-      "width": 21042,
-      "x": -10637,
-      "y": -10003,
+      "width": 49636,
+      "x": -621,
+      "y": -4952,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,13 +112,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 18458,
+      "height": 3858,
       "layer": "",
       "name": "Stars",
       "persistentUuid": "a429c698-6f17-4d2e-9ad1-e29772c93aaa",
-      "width": 21217,
-      "x": -7832,
-      "y": -7528,
+      "width": 42205,
+      "x": -752,
+      "y": -1417,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -118,9 +132,9 @@
       "layer": "",
       "name": "BlueSpace",
       "persistentUuid": "fafadf7f-932d-4fa8-90fe-32de77ca5330",
-      "width": 43908,
-      "x": -18429,
-      "y": -13851,
+      "width": 75886,
+      "x": -2191,
+      "y": -14329,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,49 +156,16 @@
       "initialVariables": []
     },
     {
-      "angle": 180,
-      "customSize": true,
-      "depth": 1,
-      "height": 126,
-      "layer": "",
-      "name": "Enemy_1",
-      "persistentUuid": "c34414ce-3da0-47b9-b839-ac467588a961",
-      "width": 97,
-      "x": 1758,
-      "y": 280,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 108,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "name": "Enemy_2",
-      "persistentUuid": "aa06ed59-7d59-4c93-8890-923c83e8267b",
-      "width": 95,
-      "x": 2224,
-      "y": 52,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": true,
-      "depth": 1,
-      "height": 116,
-      "layer": "",
-      "name": "Enemy_3",
-      "persistentUuid": "0e36719d-c62c-4ee6-902b-a8e38342a8a7",
-      "width": 114,
-      "x": 1283,
-      "y": 548,
-      "zOrder": 7,
+      "persistentUuid": "300c30f2-02e6-4e40-a4bf-2476aac57273",
+      "width": 0,
+      "x": 1866,
+      "y": 302,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -296,15 +277,15 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.1,
+          "FireCooldown": 0.5,
           "HasJustFired": false,
           "FiringArc": 45,
-          "BulletQuantity": 1,
+          "BulletQuantity": 3,
           "AngleVariance": 0,
           "RotateBullet": true,
           "AmmoQuantity": 0,
-          "ShotsPerReload": 0,
-          "ReloadDuration": 1,
+          "ShotsPerReload": 4,
+          "ReloadDuration": 4,
           "MaxAmmo": 0,
           "ShotsBeforeNextReload": 0,
           "TotalShotsFired": 0,
@@ -350,6 +331,10 @@
           "IsJustDodged": false,
           "ShieldDamageTaken": 0,
           "HealToBeApplied": 0
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
         }
       ],
       "animations": [
@@ -477,7 +462,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "309132485876c4b4657727688c9b607e67f581a2255630f23c327a2d5374851f",
-      "name": "Enemy_1",
+      "name": "Enemy_8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -656,7 +641,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "4bf9af07dcbd33278f8275354fc455eb50731c61e323ae9122ce7ac7bd63e89a",
-      "name": "GreenUfo",
+      "name": "Enemy_4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1196,7 +1181,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "ddc94beea993be9c1eb6b16751b95650de4140545222d0b6bd6304b1717f6fa3",
-      "name": "YellowUfo",
+      "name": "Enemy_1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1417,7 +1402,7 @@
           "type": "Health::Health",
           "Health": 100,
           "CurrentHealth": 0,
-          "MaxHealth": 0,
+          "MaxHealth": 100,
           "DamageCooldown": 0,
           "IsHealthJustDamaged": false,
           "HealthRegenRate": 0,
@@ -1441,12 +1426,8 @@
           "HealToBeApplied": 0
         },
         {
-          "name": "StayOnScreen",
-          "type": "StayOnScreen::StayOnScreen",
-          "MarginTop": 10,
-          "MarginBottom": 70,
-          "MarginLeft": 10,
-          "MarginRight": 70
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
         }
       ],
       "animations": [
@@ -1803,7 +1784,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "d2abe2a01934fde8510b21a198085fadfa922f6265e6ee27bbd300fe9c442aa7",
-      "name": "Enemy_3",
+      "name": "Enemy_7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8480,7 +8461,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -8613,6 +8599,467 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9385b0922d5c13453193a156c828d03c98c0e5fbb864e09f4fff02a5dcd2f002",
+      "name": "Missles",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.3,
+          "HasJustFired": false,
+          "FiringArc": 30,
+          "BulletQuantity": 5,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 1,
+          "ReloadDuration": 2,
+          "MaxAmmo": 10,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 10,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": false,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Black spaceship 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 103,
+                        "y": 0
+                      },
+                      {
+                        "x": 103,
+                        "y": 84
+                      },
+                      {
+                        "x": 0,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9385b0922d5c13453193a156c828d03c98c0e5fbb864e09f4fff02a5dcd2f002",
+      "name": "Gamma_brusts",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.3,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Black spaceship 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 103,
+                        "y": 0
+                      },
+                      {
+                        "x": 103,
+                        "y": 84
+                      },
+                      {
+                        "x": 0,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9385b0922d5c13453193a156c828d03c98c0e5fbb864e09f4fff02a5dcd2f002",
+      "name": "BFG_11000",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 1,
+          "BulletQuantity": 100,
+          "AngleVariance": 5,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 100,
+          "ReloadDuration": 3,
+          "MaxAmmo": 5,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 5,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": false,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 20
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Black spaceship 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 103,
+                        "y": 0
+                      },
+                      {
+                        "x": 103,
+                        "y": 84
+                      },
+                      {
+                        "x": 0,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9cbfcdf2c78c453095f1ac3d36ea13b0ad3eecb96e3200084d87bceb5c4695a9",
+      "name": "Enemy_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red Ufo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 91,
+                        "y": 0
+                      },
+                      {
+                        "x": 91,
+                        "y": 91
+                      },
+                      {
+                        "x": 0,
+                        "y": 91
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "fe5e40be59524a004f924feed8fde614f682b79e60d0512cf435dfe9ef91f7d0",
+      "name": "Enemy_12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red laser 11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 37,
+                        "y": 0
+                      },
+                      {
+                        "x": 37,
+                        "y": 37
+                      },
+                      {
+                        "x": 0,
+                        "y": 37
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8631,13 +9078,13 @@
         "objectName": "BlueSpace"
       },
       {
-        "objectName": "Enemy_1"
+        "objectName": "Enemy_8"
       },
       {
         "objectName": "Enemy_2"
       },
       {
-        "objectName": "Enemy_3"
+        "objectName": "Enemy_7"
       },
       {
         "objectName": "Enemy_Laser"
@@ -8652,7 +9099,7 @@
         "objectName": "BlueSpaceship2"
       },
       {
-        "objectName": "GreenUfo"
+        "objectName": "Enemy_4"
       },
       {
         "objectName": "GreenSpaceship3"
@@ -8670,6 +9117,9 @@
         "objectName": "RedUfo"
       },
       {
+        "objectName": "Enemy_3"
+      },
+      {
         "objectName": "OrangeSpaceship3"
       },
       {
@@ -8679,7 +9129,7 @@
         "objectName": "RedSpaceship2"
       },
       {
-        "objectName": "YellowUfo"
+        "objectName": "Enemy_1"
       },
       {
         "objectName": "RedSpaceship3"
@@ -8689,6 +9139,15 @@
       },
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "Missles"
+      },
+      {
+        "objectName": "Gamma_brusts"
+      },
+      {
+        "objectName": "BFG_11000"
       },
       {
         "objectName": "BlackSpaceship4"
@@ -9018,6 +9477,9 @@
         "objectName": "RedLaser11"
       },
       {
+        "objectName": "Enemy_12"
+      },
+      {
         "objectName": "RedLaser12"
       },
       {
@@ -9041,6 +9503,128 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "PurpleSpace",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Missles",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Gamma_brusts",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BFG_11000",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Missles"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Gamma_brusts"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BFG_11000"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Missles",
+            "=",
+            "Player.X()",
+            "=",
+            "Player.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Gamma_brusts",
+            "=",
+            "Player.X()",
+            "=",
+            "Player.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "BFG_11000",
+            "=",
+            "Player.X()",
+            "=",
+            "Player.Y()"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
@@ -9197,6 +9781,127 @@
       "conditions": [
         {
           "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::FireTowardPosition"
+          },
+          "parameters": [
+            "Missles",
+            "FireBullet",
+            "Player.CenterX()",
+            "Player.CenterY()",
+            "RedLaser16",
+            "CursorX()",
+            "CursorY()",
+            "800",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "Enemies",
+            "RedLaser16.X()",
+            "RedLaser16.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "RedLaser16",
+            "InOnScreen",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HomingProjectile::LockOnTarget"
+          },
+          "parameters": [
+            "",
+            "RedLaser16",
+            "Enemies",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "HomingProjectile::MoveTowardsTarget"
+          },
+          "parameters": [
+            "",
+            "RedLaser16",
+            "Enemies",
+            "10",
+            "300",
+            "30",
+            "9000",
+            "7",
+            "yes",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::FireTowardPosition"
+          },
+          "parameters": [
+            "BFG_11000",
+            "FireBullet",
+            "Player.CenterX()",
+            "Player.CenterY()",
+            "GreenLaser14",
+            "CursorX()",
+            "CursorY()",
+            "800",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "VarScene"
           },
           "parameters": [
@@ -9231,7 +9936,7 @@
           },
           "parameters": [
             "Player",
-            "Enemy_Laser",
+            "enemy_laser",
             "",
             "",
             ""
@@ -9362,7 +10067,7 @@
           "parameters": [
             "Enemies",
             "Health",
-            "25",
+            "5",
             "",
             "",
             ""
@@ -9410,76 +10115,42 @@
       "conditions": [
         {
           "type": {
-            "value": "PosX"
+            "value": "Distance"
           },
           "parameters": [
-            "Enemies",
-            "<=",
-            "CameraX()+450"
+            "Enemy_2",
+            "Player",
+            "1000",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AddForceAL"
+            "value": "RotateTowardPosition"
           },
           "parameters": [
-            "Enemies",
-            "180",
+            "Enemy_2",
+            "Player.X()",
+            "Player.Y()",
             "200",
-            "0"
+            ""
           ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Enemies",
-                "<=",
-                "CameraX()+150"
-              ]
-            }
-          ],
-          "actions": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EnemyFire\"",
-                ">",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::Fire"
-              },
-              "parameters": [
-                "Enemy_2",
-                "FireBullet",
-                "Enemy_2.X()-75",
-                "Enemy_2.Y()+30",
-                "Enemy_Laser",
-                "180",
-                "700",
-                ""
-              ]
-            }
+          "type": {
+            "value": "FireBullet::FireBullet::FireTowardObject"
+          },
+          "parameters": [
+            "Enemy_2",
+            "FireBullet",
+            "Enemy_2.X()",
+            "Enemy_2.Y()",
+            "BlueLaser10",
+            "Player",
+            "300",
+            ""
           ]
         }
       ]
@@ -9526,6 +10197,79 @@
           },
           "parameters": [
             "Enemies",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Enemies",
+            "RedLaser16",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Enemies",
+            "Health",
+            "50",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Enemies",
+            "GreenLaser14",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Enemies",
+            "Health",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "GreenLaser14",
             ""
           ]
         }
@@ -9599,6 +10343,10 @@
       "type": "Health::Health"
     },
     {
+      "name": "InOnScreen",
+      "type": "IsOnScreen::InOnScreen"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
@@ -9609,10 +10357,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "StayOnScreen",
-      "type": "StayOnScreen::StayOnScreen"
     }
   ]
 }
