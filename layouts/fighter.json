@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26364576737708023,
+    "zoomFactor": 0.10730787128505957,
     "windowMask": false
   },
   "objectsGroups": [
@@ -49,9 +49,6 @@
       "name": "Enemies",
       "objects": [
         {
-          "name": "Boss"
-        },
-        {
           "name": "BlueUfo"
         },
         {
@@ -59,6 +56,9 @@
         },
         {
           "name": "GreenUfo"
+        },
+        {
+          "name": "Boss"
         }
       ]
     },
@@ -530,10 +530,10 @@
       "layer": "",
       "name": "enter_boss",
       "persistentUuid": "ee0eebee-7f99-4d53-8381-5f0593694674",
-      "width": 312,
-      "x": 10103,
+      "width": 633,
+      "x": 10230,
       "y": -3678,
-      "zOrder": -99,
+      "zOrder": -6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -542,13 +542,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1000,
+      "height": 500,
       "layer": "",
       "name": "Boss",
       "persistentUuid": "78350295-ae9e-4417-8dee-de6a7e1503fc",
-      "width": 1000,
-      "x": 10757,
-      "y": -306,
+      "width": 500,
+      "x": 10590,
+      "y": 92,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -597,6 +597,22 @@
       "x": 499,
       "y": 244,
       "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1451,
+      "layer": "",
+      "name": "finish",
+      "persistentUuid": "e6792442-8600-42e0-a1bb-61380b4122da",
+      "width": 872,
+      "x": 10871,
+      "y": -374,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4950,6 +4966,17 @@
           "width": 256
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "finish",
+      "texture": "New image7",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -5158,6 +5185,9 @@
       },
       {
         "objectName": "sfh"
+      },
+      {
+        "objectName": "finish"
       }
     ]
   },
@@ -6456,7 +6486,7 @@
           "parameters": [
             "Enemies",
             "Health",
-            "5",
+            "10",
             "",
             "",
             ""
@@ -6578,19 +6608,6 @@
           },
           "parameters": [
             "enemy_laser",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Health::Health::Hit"
-          },
-          "parameters": [
-            "Enemies",
-            "Health",
-            "5",
-            "",
-            "",
             ""
           ]
         }
@@ -7225,39 +7242,18 @@
             "1000",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "IsOnScreen::InOnScreen::IsOnScreen"
-          },
-          "parameters": [
-            "Boss",
-            "InOnScreen",
-            "0",
-            ""
-          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Rotate"
+            "value": "FireBullet::FireBullet::FireTowardObject"
           },
           "parameters": [
             "Boss",
-            "200",
-            "Player.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::FireTowardObject"
-          },
-          "parameters": [
-            "BlueUfo",
             "FireBullet",
-            "BlueUfo.X()",
-            "BlueUfo.Y()+60",
+            "Boss.CenterX()",
+            "Boss.CenterY()+60",
             "BlueLaser010",
             "Player",
             "500",
@@ -7269,10 +7265,10 @@
             "value": "FireBullet::FireBullet::FireTowardObject"
           },
           "parameters": [
-            "BlueUfo",
+            "Boss",
             "FireBullet",
-            "BlueUfo.X()",
-            "BlueUfo.Y()+30",
+            "Boss.CenterX()",
+            "Boss.CenterY()+30",
             "BlueLaser010",
             "Player",
             "500",
@@ -7284,10 +7280,10 @@
             "value": "FireBullet::FireBullet::FireTowardObject"
           },
           "parameters": [
-            "BlueUfo",
+            "Boss",
             "FireBullet",
-            "BlueUfo.X()",
-            "BlueUfo.Y()",
+            "Boss.CenterX()",
+            "Boss.CenterY()",
             "BlueLaser010",
             "Player",
             "500",
@@ -7299,10 +7295,10 @@
             "value": "FireBullet::FireBullet::FireTowardObject"
           },
           "parameters": [
-            "BlueUfo",
+            "Boss",
             "FireBullet",
-            "BlueUfo.X()",
-            "BlueUfo.Y()-30",
+            "Boss.CenterX()",
+            "Boss.CenterY()-30",
             "BlueLaser010",
             "Player",
             "500",
@@ -7314,10 +7310,10 @@
             "value": "FireBullet::FireBullet::FireTowardObject"
           },
           "parameters": [
-            "BlueUfo",
+            "Boss",
             "FireBullet",
-            "BlueUfo.X()",
-            "BlueUfo.Y()-60",
+            "Boss.CenterX()",
+            "Boss.CenterY()-60",
             "BlueLaser010",
             "Player",
             "500",
@@ -7362,7 +7358,7 @@
           "parameters": [
             "",
             "assets\\boss passive.wav",
-            "yes",
+            "no",
             "20",
             ""
           ]
@@ -7386,77 +7382,10 @@
       "actions": [
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "sfh",
-            "Text",
-            "=",
-            "\"YOU WIN\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "sfh",
-            "=",
-            "999"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::Text::SetFontSize"
-          },
-          "parameters": [
-            "sfh",
-            "=",
-            "120"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "sfh",
-            "\"51;255;41\""
-          ]
-        },
-        {
-          "type": {
             "value": "Delete"
           },
           "parameters": [
-            "Player",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "sfh",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "YellowButton",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "GreenButton",
+            "enter_boss",
             ""
           ]
         }
@@ -7525,6 +7454,316 @@
           "parameters": [
             "",
             "\"Fighter\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "Boss",
+            "InOnScreen",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Boss",
+            "Normal",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Boss",
+            "Health",
+            "5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Normal",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "Boss",
+            "InOnScreen",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Boss",
+            "missle",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Barrel explosion.wav",
+            "",
+            "20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "Boss.CenterX()",
+            "Boss.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Enemies",
+            "Health",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "missle",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Explosion",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "Boss",
+            "InOnScreen",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Boss",
+            "Bfg",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Boss",
+            "Health",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "finish",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Text",
+            "=",
+            "\"YOU WIN\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "NewText",
+            "=",
+            "999"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "NewText",
+            "=",
+            "120"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "NewText",
+            "\"51;255;41\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Player",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "Boss",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "enter_boss",
             ""
           ]
         }

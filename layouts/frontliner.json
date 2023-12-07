@@ -1637,7 +1637,7 @@
           "TotalBulletsCreated": 0,
           "StartingAmmo": 199,
           "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": false,
+          "UnlimitedAmmo": true,
           "ReloadInProgress": false,
           "HeatIncreasePerShot": 0,
           "HeatLevel": 0,
@@ -3979,35 +3979,6 @@
       "conditions": [
         {
           "type": {
-            "value": "FireBullet::FireBullet::HasJustFired"
-          },
-          "parameters": [
-            "Player",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\long laser.wav",
-            "yes",
-            "4",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "KeyPressed"
           },
           "parameters": [
@@ -4079,6 +4050,16 @@
             "",
             "Left"
           ]
+        },
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsReadyToShoot"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -4096,6 +4077,18 @@
             "CursorY()",
             "5000",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Lazers.mp3",
+            "",
+            "5",
+            "2"
           ]
         }
       ]
