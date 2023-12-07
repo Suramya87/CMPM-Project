@@ -546,7 +546,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Collectors ",
+          "string": "Tracker",
           "font": "",
           "textAlignment": "center",
           "characterSize": 40,
@@ -672,7 +672,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Assassins",
+          "string": "Fighter",
           "font": "",
           "textAlignment": "center",
           "characterSize": 40,
@@ -1132,7 +1132,7 @@
           },
           "parameters": [
             "",
-            "\"Collectors\"",
+            "\"Tracker\"",
             ""
           ]
         }
@@ -1200,7 +1200,7 @@
           },
           "parameters": [
             "",
-            "\"Assassin\"",
+            "\"Fighter\"",
             ""
           ]
         }

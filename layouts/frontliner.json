@@ -179,7 +179,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "BlueSpaceship3",
+      "name": "Player",
       "persistentUuid": "232f9f03-e2e5-4d00-a27e-b899d894a99d",
       "width": 0,
       "x": 607,
@@ -1388,7 +1388,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "420446a91335d849629bf076b66620754259f6daef1687534cd7fe9e7fe46dcc",
       "name": "BlueLaser01",
       "type": "Sprite",
@@ -1458,20 +1458,20 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 54,
+                        "y": 9
+                      },
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
                         "x": 0,
                         "y": 0
                       },
                       {
-                        "x": 9,
+                        "x": 54,
                         "y": 0
-                      },
-                      {
-                        "x": 9,
-                        "y": 54
-                      },
-                      {
-                        "x": 0,
-                        "y": 54
                       }
                     ]
                   ]
@@ -1611,9 +1611,9 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "309132485876c4b4657727688c9b607e67f581a2255630f23c327a2d5374851f",
-      "name": "BlueSpaceship3",
+      "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1681,20 +1681,52 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 75
+                        "x": 8,
+                        "y": 71
                       },
                       {
                         "x": 0,
-                        "y": 75
+                        "y": 62
+                      },
+                      {
+                        "x": 0,
+                        "y": 36
+                      },
+                      {
+                        "x": 9,
+                        "y": 26.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 38
+                      },
+                      {
+                        "x": 75,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 75,
+                        "y": 53.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 17,
+                        "y": 98
+                      },
+                      {
+                        "x": 8,
+                        "y": 98
                       }
                     ]
                   ]
@@ -2311,64 +2343,7 @@
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "content": {
-        "PreviousHighValueDuration": 0,
-        "ShowLabel": false,
-        "BarTopPadding": 4,
-        "BarBottomPadding": 6,
-        "BarLeftPadding": 4,
-        "BarRightPadding": 4,
-        "MaxValue": 10000,
-        "InitialValue": 0
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 6,
-          "height": 34,
-          "leftMargin": 4,
-          "rightMargin": 4,
-          "texture": "Flat Bar White Border.png",
-          "tiled": true,
-          "topMargin": 6,
-          "width": 224
-        },
-        "Buffer": {
-          "bottomMargin": 0,
-          "height": 24,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Flat Bar Red Fill Bar.png",
-          "tiled": true,
-          "topMargin": 0,
-          "width": 24
-        },
-        "FillBar": {
-          "bottomMargin": 0,
-          "height": 24,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Flat Bar Red Fill Bar.png",
-          "tiled": true,
-          "topMargin": 0,
-          "width": 24
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 16,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        }
-      }
+      "behaviors": []
     },
     {
       "assetStoreId": "",
@@ -2665,7 +2640,7 @@
         "objectName": "StarryBackgroundStars3"
       },
       {
-        "objectName": "BlueSpaceship3"
+        "objectName": "Player"
       },
       {
         "objectName": "BigBrownMeteor1"
@@ -2804,8 +2779,8 @@
           "parameters": [
             "",
             "DoubleChevronArrowRight",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             ""
           ]
         },
@@ -3888,18 +3863,13 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
       "actions": [
         {
           "type": {
             "value": "RotateTowardPosition"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "CursorX()",
             "CursorY()",
             "200",
@@ -3913,7 +3883,7 @@
           "parameters": [
             "StarryBackgroundStars2",
             "=",
-            "BlueSpaceship3.X()/3"
+            "Player.X() / 3"
           ]
         },
         {
@@ -3923,7 +3893,7 @@
           "parameters": [
             "StarryBackgroundStars2",
             "=",
-            "BlueSpaceship3.Y()/3"
+            "Player.Y() / 3"
           ]
         },
         {
@@ -3932,7 +3902,7 @@
           },
           "parameters": [
             "",
-            "BlueSpaceship3",
+            "Player",
             "",
             "",
             ""
@@ -3946,7 +3916,7 @@
             "Ammo",
             "Text",
             "=",
-            "ToString(BlueSpaceship3.FireBullet::ShotsBeforeNextReload())"
+            "ToString(Player.FireBullet::ShotsBeforeNextReload())"
           ]
         }
       ]
@@ -3959,7 +3929,7 @@
             "value": "FireBullet::FireBullet::IsReloadInProgress"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "FireBullet",
             ""
           ]
@@ -3986,7 +3956,7 @@
             "value": "FireBullet::FireBullet::IsReloadInProgress"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "FireBullet",
             ""
           ]
@@ -4000,6 +3970,35 @@
           "parameters": [
             "Ammo",
             "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::HasJustFired"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\long laser.wav",
+            "yes",
+            "4",
+            "1"
           ]
         }
       ]
@@ -4023,11 +4022,48 @@
             "value": "AddForceVersPos"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "CursorX()",
             "CursorY()",
-            "500",
+            "800",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsReloadInProgress"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Reload.wav",
+            "",
+            "4",
+            "2"
           ]
         }
       ]
@@ -4051,10 +4087,10 @@
             "value": "FireBullet::FireBullet::FireTowardPosition"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "FireBullet",
-            "BlueSpaceship3.X()",
-            "BlueSpaceship3.Y()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             "BlueLaser01",
             "CursorX()",
             "CursorY()",
@@ -4269,7 +4305,7 @@
           },
           "parameters": [
             "BigBrownMeteor1",
-            "BlueSpaceship3",
+            "Player",
             "",
             "",
             "no"
@@ -4281,7 +4317,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "Spawn_protection",
             "",
             "",
@@ -4295,7 +4331,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             ""
           ]
         },
@@ -4317,8 +4353,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             ""
           ]
         },
@@ -4364,7 +4400,7 @@
           },
           "parameters": [
             "BigBrownMeteor2",
-            "BlueSpaceship3",
+            "Player",
             "",
             "",
             "no"
@@ -4376,7 +4412,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "Spawn_protection",
             "",
             "",
@@ -4390,7 +4426,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             ""
           ]
         },
@@ -4412,8 +4448,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             ""
           ]
         },
@@ -4459,7 +4495,7 @@
           },
           "parameters": [
             "BigGreyMeteor1",
-            "BlueSpaceship3",
+            "Player",
             "",
             "",
             "no"
@@ -4471,7 +4507,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "Spawn_protection",
             "",
             "",
@@ -4485,7 +4521,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             ""
           ]
         },
@@ -4507,8 +4543,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             ""
           ]
         },
@@ -4554,7 +4590,7 @@
           },
           "parameters": [
             "BigGreyMeteor4",
-            "BlueSpaceship3",
+            "Player",
             "",
             "",
             "no"
@@ -4566,7 +4602,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             "Spawn_protection",
             "",
             "",
@@ -4580,7 +4616,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueSpaceship3",
+            "Player",
             ""
           ]
         },
@@ -4602,8 +4638,8 @@
           "parameters": [
             "",
             "Explosion",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             ""
           ]
         },
@@ -5018,8 +5054,8 @@
           },
           "parameters": [
             "OrangeBarrel",
-            "BlueSpaceship3.CenterX()",
-            "BlueSpaceship3.CenterY()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             ""
           ]
         }
@@ -5032,7 +5068,7 @@
           "parameters": [
             "DoubleChevronArrowRight",
             "=",
-            "AngleBetweenPositions(BlueSpaceship3.CenterX(),BlueSpaceship3.CenterY(),OrangeBarrel.CenterX(),OrangeBarrel.CenterY())"
+            "AngleBetweenPositions(Player.CenterX(), Player.CenterY(), OrangeBarrel.CenterX(), OrangeBarrel.CenterY())"
           ]
         },
         {
@@ -5041,7 +5077,7 @@
           },
           "parameters": [
             "DoubleChevronArrowRight",
-            "BlueSpaceship3",
+            "Player",
             "100",
             "DoubleChevronArrowRight.Angle()"
           ]
@@ -5100,35 +5136,6 @@
                 ""
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::HasJustFired"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Lazers.mp3",
-            "",
-            "4",
-            ""
           ]
         }
       ]
@@ -5274,35 +5281,6 @@
           "parameters": [
             "Game_Screen",
             "\"255;4;4\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::IsReloadInProgress"
-          },
-          "parameters": [
-            "BlueSpaceship3",
-            "FireBullet",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Reload.mp3",
-            "",
-            "4",
-            ""
           ]
         }
       ]

@@ -2294,8 +2294,6 @@
         "name": "assets\\tiled_Stars.png",
         "smoothed": true,
         "userAdded": true
-<<<<<<< Updated upstream
-=======
       },
       {
         "alwaysLoaded": false,
@@ -4324,7 +4322,287 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/3616fdb9dd0f758d3e9aa4921c95f1666021016946330dc51a65e29b2477f9a1_Black Hole.png",
           "name": "Black Hole.png"
         }
->>>>>>> Stashed changes
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blue laser 02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red laser 10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Big gun.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Big gun.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/scan.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\scan.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/invs.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\invs.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Reload.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Reload.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/laser.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\laser.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/long laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\long laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bfg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bfg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blue laser 16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Hud/Bar/f8e5d88f8b377f182d5d42adf0bf9bc5f94034ac24c410f07ba27c46cda841c3_Health Bar.png",
+          "name": "Health Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health_01.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/a815e0c32e8d96c3c9a186c4e28ea7712ff2278da167b7fef747c7169922896b_Health_01.png",
+          "name": "Health_01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01_Bar01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health_01_Bar01.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/a3178a0b43f6cc9ae792638abe7d209f714b0eca84dc6a582d59131851da1be7_Health_01_Bar01.png",
+          "name": "Health_01_Bar01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01_Bar02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health_01_Bar02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/dc4c992005dae5ea58c7e78c99d9312641e7459b82e2dba6c8b9053a8e9c984e_Health_01_Bar02.png",
+          "name": "Health_01_Bar02.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
+          "name": "Health Bar Box.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/final.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\final.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss entry.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\boss entry.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss passive.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\boss passive.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4346,11 +4624,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/assassin"
+      "referenceTo": "/layouts/fighter"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/collectors"
+      "referenceTo": "/layouts/tracker"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -4361,15 +4639,15 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/homingprojectile"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/health"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
